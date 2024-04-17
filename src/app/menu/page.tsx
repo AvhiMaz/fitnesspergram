@@ -1,153 +1,81 @@
 "use client";
-import React from "react";
-import { ContainerScroll } from "@/app/components/ui/container-scroll-animation";
+
 import Image from "next/image";
+import { Tabs } from "@/app/components/ui/tabs";
 import { LampDemo } from "../components/sabka-lamp";
 
-export default function HeroScrollDemo() {
+export default function TabsDemo() {
+  const tabs = [
+    {
+      title: "Product",
+      value: "product",
+      content: (
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-black bg-gradient-to-br from-orange-300 to-orange-500">
+          <p>Product Tab</p>
+          <DummyContent />
+        </div>
+      ),
+    },
+    {
+      title: "Services",
+      value: "services",
+      content: (
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-black bg-gradient-to-br from-orange-300 to-orange-500">
+          <p>Services tab</p>
+          <DummyContent />
+        </div>
+      ),
+    },
+    {
+      title: "Playground",
+      value: "playground",
+      content: (
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-black bg-gradient-to-br from-orange-300 to-orange-500">
+          <p>Playground tab</p>
+          <DummyContent />
+        </div>
+      ),
+    },
+    {
+      title: "Content",
+      value: "content",
+      content: (
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-black bg-gradient-to-br from-orange-300 to-orange-500">
+          <p>Content tab</p>
+          <DummyContent />
+        </div>
+      ),
+    },
+    {
+      title: "Random",
+      value: "random",
+      content: (
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-black bg-gradient-to-br from-orange-300 to-orange-500">
+          <p>Random tab</p>
+          <DummyContent />
+        </div>
+      ),
+    },
+  ];
+
   return (
     <>
-    <LampDemo/>
-    <div className="flex flex-col overflow-hidden">
-      <ContainerScroll
-        titleComponent={
-          <>
-            <h1 className="text-4xl font-semibold text-black dark:text-white">
-              Unleash the power of <br />
-              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                Scroll Animations
-              </span>
-            </h1>
-          </>
-        }
-      >
-        <Image
-          src={`/linear.webp`}
-          alt="hero"
-          height={720}
-          width={1400}
-          className="mx-auto rounded-2xl object-cover h-full object-left-top"
-          draggable={false}
-        />
-      </ContainerScroll>
+    <LampDemo />
+    <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-40">
+      <Tabs tabs={tabs} />
     </div>
     </>
   );
 }
 
-export const users = [
-  {
-    name: "Manu Arora",
-    designation: "Founder, Algochurn",
-    image: "https://picsum.photos/id/10/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "Sarah Singh",
-    designation: "Founder, Sarah's Kitchen",
-    image: "https://picsum.photos/id/11/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "John Doe",
-    designation: "Software Engineer, Tech Corp",
-    image: "https://picsum.photos/id/12/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "Jane Smith",
-    designation: "Product Manager, Innovate Inc",
-    image: "https://picsum.photos/id/13/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "Robert Johnson",
-    designation: "Data Scientist, DataWorks",
-    image: "https://picsum.photos/id/14/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "Emily Davis",
-    designation: "UX Designer, DesignHub",
-    image: "https://picsum.photos/id/15/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "Michael Miller",
-    designation: "CTO, FutureTech",
-    image: "https://picsum.photos/id/16/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "Sarah Brown",
-    designation: "CEO, StartUp",
-    image: "https://picsum.photos/id/17/300/300",
-  },
-  {
-    name: "James Wilson",
-    designation: "DevOps Engineer, CloudNet",
-    image: "https://picsum.photos/id/18/300/300",
-    badge: "Something",
-  },
-  {
-    name: "Patricia Moore",
-    designation: "Marketing Manager, MarketGrowth",
-    image: "https://picsum.photos/id/19/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "Richard Taylor",
-    designation: "Frontend Developer, WebSolutions",
-    image: "https://picsum.photos/id/20/300/300",
-  },
-  {
-    name: "Linda Anderson",
-    designation: "Backend Developer, ServerSecure",
-    image: "https://picsum.photos/id/21/300/300",
-  },
-  {
-    name: "William Thomas",
-    designation: "Full Stack Developer, FullStack",
-    image: "https://picsum.photos/id/22/300/300",
-    badge: "Badger",
-  },
-  {
-    name: "Elizabeth Jackson",
-    designation: "Project Manager, ProManage",
-    image: "https://picsum.photos/id/23/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "David White",
-    designation: "Database Administrator, DataSafe",
-    image: "https://picsum.photos/id/24/300/300",
-    badge: "Advocate",
-  },
-  {
-    name: "Jennifer Harris",
-    designation: "Network Engineer, NetConnect",
-    image: "https://picsum.photos/id/25/300/300",
-  },
-  {
-    name: "Charles Clark",
-    designation: "Security Analyst, SecureIT",
-    image: "https://picsum.photos/id/26/300/300",
-  },
-  {
-    name: "Susan Lewis",
-    designation: "Systems Analyst, SysAnalyse",
-    image: "https://picsum.photos/id/27/300/300",
-  },
-  {
-    name: "Joseph Young",
-    designation: "Mobile Developer, AppDev",
-    image: "https://picsum.photos/id/28/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "Margaret Hall",
-    designation: "Quality Assurance, BugFree",
-    image: "https://picsum.photos/id/29/300/300",
-    badge: "Developer",
-  },
-];
+const DummyContent = () => {
+  return (
+    <Image
+      src="/linear.webp"
+      alt="dummy image"
+      width="1000"
+      height="1000"
+      className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
+    />
+  );
+};
