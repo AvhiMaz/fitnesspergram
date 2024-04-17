@@ -2,12 +2,9 @@
 import React from "react";
 import { ContainerScroll } from "@/app/components/ui/container-scroll-animation";
 import Image from "next/image";
-import { LampDemo } from "../components/sabka-lamp";
 
-export default function HeroScrollDemo() {
+export function HeroScrollDemo() {
   return (
-    <>
-    <LampDemo/>
     <div className="flex flex-col overflow-hidden">
       <ContainerScroll
         titleComponent={
@@ -31,7 +28,6 @@ export default function HeroScrollDemo() {
         />
       </ContainerScroll>
     </div>
-    </>
   );
 }
 
