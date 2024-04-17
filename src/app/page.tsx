@@ -9,18 +9,23 @@ export default function Home() {
     <>
      <SpotlightPreview/>
      <div>
-      <h1 className="flex items-center justify-center text-2xl">
+      <h1 className="flex items-center text-white justify-center text-2xl">
         Top Reviews
       </h1>
      </div>
      <InfiniteMovingCardsDemo/>
-     <div className="mt-20">
+     <div className="mt-20 bg-black">
      <AnimatedTooltipPreview/>
      </div>
-     <div className="text-center mb-20">
-     © 2024 fitnesspergram . Email : info@fitnesspergram |<br/> Phone : +917086615792
-Business Address : uday ka ghar
-     </div>
+     <footer className="text-center text-white">
+     © 2024 fitnesspergram | Email : info@fitnesspergram |<br/> Phone : +917086615792
+Business Address : uday ka ghar <br/>             
+
+
+
+
+--------- @ ----------
+     </footer>
      </>
   );
 }

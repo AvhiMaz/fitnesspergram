@@ -4,15 +4,19 @@ export function TypewriterEffectSmoothDemo() {
   const words = [
     {
       text: "start",
+      className: "text-white"
     },
     {
       text: "your",
+      className: "text-white"
     },
     {
       text: "fitness",
+      className: "text-white"
     },
     {
       text: "journey",
+      className: "text-white"
     },
     {
       text: "@fitnesspergram.store",
@@ -21,7 +25,7 @@ export function TypewriterEffectSmoothDemo() {
   ];
   return (
     <div className="flex flex-col items-center justify-center h-[40rem]  ">
-      <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
+      <p className="text-white dark:text-neutral-200 text-xs sm:text-base  ">
         Your road to fitness starts right here
       </p>
       <TypewriterEffectSmooth words={words} />
