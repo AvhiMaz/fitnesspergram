@@ -1,5 +1,15 @@
+import { BentoGridSecondDemo } from "../components/bento";
+import { LampDemo } from "../components/sabka-lamp";
+
 export default function Recipe() {
-    return(
-        <div>Recipe</div>
-    )
+  return (
+    <>
+    <div>
+        <LampDemo/>
+    </div>
+    <div>
+      <BentoGridSecondDemo />
+    </div>
+    </>
+  );
 }

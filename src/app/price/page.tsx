@@ -1,5 +1,9 @@
+import { LampDemo } from "../components/sabka-lamp";
+
 export default function Price() {
     return(
-        <div>Price</div>
+        <div>
+            <LampDemo/>
+        </div>
     )
 }

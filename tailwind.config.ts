@@ -1,4 +1,9 @@
 import type { Config } from "tailwindcss";
+const defaultTheme =
+require("tailwindcss/defaultTheme");
+
+const colors = require("tailwindcss/colors");
+const {default:flattenColorPalette,} = require("tailwindcss/lib/Util/flattenColorPalette");
 
 const config: Config = {
   content: [
@@ -9,9 +14,17 @@ const config: Config = {
   theme: {
     extend: {
       animation: {
+        scroll:
+          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+
         spotlight: "spotlight 2s ease .75s 1 forwards",
       },
       keyframes: {
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
+          },
+        },
         spotlight: {
           "0%": {
             opacity: '0',
@@ -30,6 +43,16 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [addVariablesForColors],
 };
 export default config;
+function addVariablesForColors({ addBase, theme }: any) {
+  let allColors = flattenColorPalette(theme("colors"));
+  let newVars = Object.fromEntries(
+    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
+  );
+ 
+  addBase({
+    ":root": newVars,
+  });
+}

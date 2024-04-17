@@ -1,5 +1,15 @@
+import { ImagesSliderDemo } from "@/app/components/image-slide";
+import { SparklesPreview } from "@/app/components/textspark";
+
 export default function Plans() {
-    return(
-        <div>Plans</div>
-    )
+  return (
+    <>
+      <div>
+        <SparklesPreview />
+      </div>
+      <div>
+        <ImagesSliderDemo />
+      </div>
+    </>
+  );
 }

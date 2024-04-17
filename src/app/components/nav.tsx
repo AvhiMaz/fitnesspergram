@@ -36,31 +36,11 @@ function Navbar({ className }: { className?: string }) {
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Services">
-          <div className="  text-sm grid grid-cols-2 gap-10 p-4">
-            <ProductItem
-              title="Subscription"
-              href="/subscribe"
-              src="https://assets.aceternity.com/demos/algochurn.webp"
-              description="Prepare for tech interviews like never before."
-            />
-            <ProductItem
-              title="View Price"
-              href="/price"
-              src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
-              description="Production ready Tailwind css components for your next project"
-            />
-            <ProductItem
-              title="Menu"
-              href="/menu"
-              src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
-              description="Never write from scratch again. Go from idea to blog in minutes."
-            />
-            <ProductItem
-              title="Recipes"
-              href="/recipes"
-              src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.47.07%E2%80%AFPM.png"
-              description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
-            />
+        <div className="flex flex-col space-y-4 text-sm">
+            <HoveredLink href="/subscribe">Subscribe</HoveredLink>
+            <HoveredLink href="/price">Pricing</HoveredLink>
+            <HoveredLink href="/menu">Menu</HoveredLink>
+            <HoveredLink href="/recipes">Recipes</HoveredLink>
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="More">
