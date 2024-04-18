@@ -20,9 +20,23 @@
     "baseUrl": ".", 
     "paths": {
       "@/*": ["./src/*"],
-      "@/app/": ["app/*"]
+      "@/app/": ["app/*"],
+      "controllers/*": [ "./src/controllers/*" ],
+    "helpers/*": [ "./src/helpers/*" ],
+    "utils/*": [ "./src/utils/*" ],
+    "components/*": [ "./src/components/*" ],
+    "interfaces/*": [ "./src/interfaces/*" ],
+    "middlewares/*": [ "./src/middlewares/*" ],
+    "models/*": [ "./src/models/*" ],
+    "routes/*": [ "./src/routes/*" ],
+    "services/*": [ "./src/services/*" ],
+    "validations/*": [ "./src/validations/*" ]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+
+  "scripts": {
+    "dev": "ts-node-dev -r tsconfig-paths/register src/main.ts"
+}
 }
