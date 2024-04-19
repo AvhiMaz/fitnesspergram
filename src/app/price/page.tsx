@@ -531,6 +531,9 @@ export default function Price() {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center h-[25rem]">
+        <p className="text-yellow-500 text-bold text-2xl lg:text-5xl">
+          Excited ?{" "}
+        </p>
         <TypewriterEffectSmooth words={words} />
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 mt-5">
           <Link href="/subscribe">
