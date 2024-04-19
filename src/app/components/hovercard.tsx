@@ -9,39 +9,44 @@ export function CardHoverEffectDemo() {
 }
 export const projects = [
   {
-    title: "Stripe",
+    title: "Instagram",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+      "Discover nutritious meals that are anything but odinary. Plus enjoy fitness related content to boost toyr healthy lifestyle. Join us on a journey of healthy eating @fitnesspergram.store",
+    link: "https://instagram.com/fitnesspergram.store",
+    br: "",
   },
   {
-    title: "Netflix",
+    title: "LinkedIn",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+      "Join us as we combine wholesome nutritions with practicle fitness insights to build a healthier community one gram at a time",
+    link: "https://www.linkedin.com/company/fitnesspergram/?viewAsMember=true",
+    br: "",
   },
   {
-    title: "Google",
+    title: "Youtube",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
+      "Subscribe to our youtube channel for mouthwatering recipes, nutrition tips and workout plans to boost your fitness journey",
+    link: "https://www.youtube.com/channel/UCwUZeCgZ1Nln-11g0zqdCsA",
+    br: "",
   },
   {
-    title: "Meta",
+    title: "Drop a Mail",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    link: "https://meta.com",
+      "For enquiries, doubts, support or anything else reach us at fitnesspergram@gmail.com",
+    link: "mailto:fitnesspergram@gmail.com",
+    br: "",
   },
   {
-    title: "Amazon",
-    description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    link: "https://amazon.com",
+    title: "Call us at",
+    description: "Lets have a chat! call us now +91 70866 15792",
+    link: "tel:+917086615792",
+    br: "",
   },
   {
-    title: "Microsoft",
+    title: "WhatsApp",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    link: "https://microsoft.com",
+      "Got any queries we got you covered, drop a text anytime you want.",
+    link: "https://wa.me/917086615792",
+    br: "",
   },
 ];

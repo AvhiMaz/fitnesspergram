@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { NavbarDemo } from "./components/nav";
-import { AnimatedTooltipPreview } from "./components/animated";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +21,11 @@ export default function RootLayout({
         <div className="bg-black">
           <NavbarDemo />
           {children}
+          <footer className="text-center text-sm text-white">
+            © 2024 fitnesspergram | Email : info@fitnesspergram |<br /> Phone :
+            +917086615792 Business Address : uday ka ghar <br />
+            --------- @ ----------
+          </footer>
         </div>
       </body>
     </html>

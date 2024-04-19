@@ -16,11 +16,6 @@ export default function Home() {
       <div className="mt-20 bg-black">
         <AnimatedTooltipPreview />
       </div>
-      <footer className="text-center text-sm text-white">
-        © 2024 fitnesspergram | Email : info@fitnesspergram |<br /> Phone :
-        +917086615792 Business Address : uday ka ghar <br />
-        --------- @ ----------
-      </footer>
     </>
   );
 }
