@@ -1,13 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import {
-  HoveredLink,
-  Menu,
-  MenuItem,
-  ProductItem,
-} from "@/app/components/ui/navbar-menu";
+import { HoveredLink, Menu, MenuItem } from "@/app/components/ui/navbar-menu";
 import { cn } from "@/utlis/cn";
-import { ChevronLeft } from "lucide-react";
 import Link from "next/link";
 
 export function NavbarDemo() {
@@ -25,27 +19,19 @@ function Navbar({ className }: { className?: string }) {
       className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
     >
       <Menu setActive={setActive}>
-        <Link href="/">
-          <ChevronLeft />
-        </Link>
-
-        <MenuItem setActive={setActive} active={active} item="Home">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/plans">Our Vision & Plans</HoveredLink>
-            <HoveredLink href="/works">How it Works</HoveredLink>
-          </div>
-        </MenuItem>
+        <Link href="/">Home</Link>
         <MenuItem setActive={setActive} active={active} item="Services">
-        <div className="flex flex-col space-y-4 text-sm">
+          <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/subscribe">Subscribe</HoveredLink>
             <HoveredLink href="/price">Pricing</HoveredLink>
             <HoveredLink href="/menu">Menu</HoveredLink>
             <HoveredLink href="/recipes">Recipes</HoveredLink>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="More">
+
+        <Link href="/contact">Contact</Link>
+        <MenuItem setActive={setActive} active={active} item="About">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/contact">Contact Us</HoveredLink>
             <HoveredLink href="/about">About Us</HoveredLink>
             <HoveredLink href="/faq">FAQs</HoveredLink>
             <HoveredLink href="/condition">Terms & Conditions</HoveredLink>
