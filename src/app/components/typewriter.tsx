@@ -37,9 +37,9 @@ export function TypewriterEffectSmoothDemo() {
             View Pricings
           </button>
         </Link>
-        <Link href="/subscribe">
+        <Link href="/sign-in">
           <button className="w-40 h-10 rounded-xl bg-white text-black border border-black  text-sm">
-            Subscribe
+            Sign in / Login
           </button>
         </Link>
       </div>
