@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem } from "@/app/components/ui/navbar-menu";
 import { cn } from "@/utlis/cn";
 import Link from "next/link";
+import { UserButton } from "@clerk/nextjs";
 
 export function NavbarDemo() {
   return (
@@ -36,6 +37,7 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="/condition">Terms & Conditions</HoveredLink>
           </div>
         </MenuItem>
+        <UserButton />
       </Menu>
     </div>
   );
