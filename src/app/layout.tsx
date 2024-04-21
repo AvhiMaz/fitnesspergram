@@ -9,9 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "fitnesspergram.store",
   icons: {
-    icon: ["/favicon.ico?v=1"],
-    apple: ["/apple-touch-icon.png?v=4"],
-    shortcut: ["/apple-touch-icon.png"],
+    shortcut: "/favicon.ico",
   },
   manifest: "site.webmanifest",
 };
