@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from "react";
 import MenuVeg from "../components/veg";
@@ -25,14 +25,14 @@ export default function Menu() {
                   Chicken Thali Twist
                 </p>
                 <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  ₹130.00
+                  ₹129.00
                 </p>
               </div>
               <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                Calories: 300kcal <br/>
-                 Protein: 35g <br/>
-                 Carbs: 40g <br/>
-                 Fats: 26g
+                Calories: 344kcal <br />
+                ∙Protein: 45.8g <br />
+                ∙Carbs: 23.5g <br />
+                ∙Fats: 5.54g
               </p>
             </div>
             <div className="p-6 pt-0">
@@ -49,7 +49,7 @@ export default function Menu() {
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
               <img
-                src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=927&amp;q=80"
+                src="https://ideogram.ai/api/images/direct/3U4G0Q9CQqGMvyc2x8Tdrg.png"
                 alt="card-image"
                 className="object-cover w-full h-full"
               />
@@ -57,15 +57,17 @@ export default function Menu() {
             <div className="p-6">
               <div className="flex items-center justify-between mb-2">
                 <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  Apple AirPods
+                  Egg Delight Thali
                 </p>
                 <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  $95.00
+                  ₹99.00
                 </p>
               </div>
               <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                With plenty of talk and listen time, voice-activated Siri
-                access, and an available wireless charging case.
+                Calories: 154kcal <br />
+                ∙Protein: 30g <br />
+                ∙Carbs: 9g <br />
+                ∙Fats: 8.57g
               </p>
             </div>
             <div className="p-6 pt-0">
@@ -82,7 +84,7 @@ export default function Menu() {
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
               <img
-                src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=927&amp;q=80"
+                src="https://ideogram.ai/api/images/direct/mbSQcAl4RgGxEBu01Ppxiw.png"
                 alt="card-image"
                 className="object-cover w-full h-full"
               />
@@ -90,15 +92,17 @@ export default function Menu() {
             <div className="p-6">
               <div className="flex items-center justify-between mb-2">
                 <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  Apple AirPods
+                  Fish Thali
                 </p>
                 <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  $95.00
+                  ₹119.00
                 </p>
               </div>
               <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                With plenty of talk and listen time, voice-activated Siri
-                access, and an available wireless charging case.
+                Calories: 305kcal <br />
+                ∙Protein: 32.5g <br />
+                ∙Carbs: 23g <br />
+                ∙Fats: 9g
               </p>
             </div>
             <div className="p-6 pt-0">
@@ -115,7 +119,7 @@ export default function Menu() {
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
               <img
-                src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=927&amp;q=80"
+                src="https://ideogram.ai/api/images/direct/XXoKCx4EQpKfJU0DlCF7yA.png"
                 alt="card-image"
                 className="object-cover w-full h-full"
               />
@@ -123,15 +127,17 @@ export default function Menu() {
             <div className="p-6">
               <div className="flex items-center justify-between mb-2">
                 <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  Apple AirPods
+                  Boiled Meal
                 </p>
                 <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  $95.00
+                  ₹95.00
                 </p>
               </div>
               <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                With plenty of talk and listen time, voice-activated Siri
-                access, and an available wireless charging case.
+                Calories: 154kcal <br />
+                ∙Protein: 30g <br />
+                ∙Carbs: 9g <br />
+                ∙Fats: 8.57g
               </p>
             </div>
             <div className="p-6 pt-0">

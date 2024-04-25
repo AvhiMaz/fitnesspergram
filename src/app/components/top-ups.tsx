@@ -55,9 +55,11 @@ export default function TopUp() {
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                 Chicken (50g)
               </h5>
+              <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
+                ₹39.00
+                </p>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-                Because it is about motivating the doers. Because I am here to
-                follow my dreams and inspire others.
+              Add a generous portion of succulent chicken to any dish for a mouthwatering boost of flavor and satisfaction.
               </p>
             </div>
             <div className="p-6 pt-0">
@@ -170,9 +172,11 @@ export default function TopUp() {
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                 Chicken (100g)
               </h5>
+              <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
+                ₹69.00
+                </p>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-                Because it is about motivating the doers. Because I am here to
-                follow my dreams and inspire others.
+              Add double the portion of succulent chicken to any dish for a mouthwatering boost of flavor and satisfaction.
               </p>
             </div>
             <div className="p-6 pt-0">
@@ -261,9 +265,11 @@ export default function TopUp() {
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                 Paneer (50g)
               </h5>
+              <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
+                ₹39.00
+                </p>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-                Because it is about motivating the doers. Because I am here to
-                follow my dreams and inspire others.
+              Upgrade your meal with our Extra Paneer Top-Up! Indulge in creamy perfection with every bite.
               </p>
             </div>
             <div className="p-6 pt-0">
@@ -326,9 +332,11 @@ export default function TopUp() {
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                 Scrambled Eggs (2x)
               </h5>
+              <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
+                ₹29.00
+                </p>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-                Because it is about motivating the doers. Because I am here to
-                follow my dreams and inspire others.
+              Upgrade your meals with our extra eggs top-up – fresher, tastier, and packed with goodness.
               </p>
             </div>
             <div className="p-6 pt-0">

@@ -12,7 +12,7 @@ export default function SpotlightPreview() {
         fill="white"
       />
       <div className=" p-4 max-w-7xl text-center mx-auto relative z-10  w-full pt-20 md:pt-0">
-        <p className="text-yellow-500 text-bold text-2xl lg:text-5xl">
+        <p className="text-yellow-500 text-bold lg:mt-20 text-2xl lg:text-5xl">
           #Connected
         </p>
         <CardHoverEffectDemo />

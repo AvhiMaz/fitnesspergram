@@ -3,29 +3,30 @@ import React from "react";
 export default function MenuVeg() {
   return (
     <>
-    <p className="mt-32 text-center text-yellow-500 text-5xl">#Veg</p>
+      <p className="mt-32 text-center text-yellow-500 text-5xl">#Veg</p>
       <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4">
         <div className="mt-20 lg:mt-10 flex items-center justify-center">
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
               <img
-                src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=927&amp;q=80"
-                alt="card-image"
+                src="https://ideogram.ai/api/images/direct/HII3e4ScQRi7MKurLjWnwA.png"
                 className="object-cover w-full h-full"
               />
             </div>
             <div className="p-6">
               <div className="flex items-center justify-between mb-2">
                 <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  Apple AirPods
+                  Paneer wala plate
                 </p>
                 <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  $95.00
+                  ₹129.00
                 </p>
               </div>
               <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                With plenty of talk and listen time, voice-activated Siri
-                access, and an available wireless charging case.
+                Calories: 366kcal <br />
+                ∙Protein: 20.4g <br />
+                ∙Carbs: 25.4g <br />
+                ∙Fats: 20.4g
               </p>
             </div>
             <div className="p-6 pt-0">
@@ -42,23 +43,24 @@ export default function MenuVeg() {
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
               <img
-                src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=927&amp;q=80"
-                alt="card-image"
+                src="https://ideogram.ai/api/images/direct/hwI77vKHS72mf7KNZjy60Q.png"
                 className="object-cover w-full h-full"
               />
             </div>
             <div className="p-6">
               <div className="flex items-center justify-between mb-2">
                 <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  Apple AirPods
+                  Nutrilla Meal
                 </p>
                 <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  $95.00
+                  ₹65.00
                 </p>
               </div>
               <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                With plenty of talk and listen time, voice-activated Siri
-                access, and an available wireless charging case.
+                Calories: 437kcal <br />
+                ∙Protein: 54.6g <br />
+                ∙Carbs: 55g <br />
+                ∙Fats: 0.9g
               </p>
             </div>
             <div className="p-6 pt-0">
@@ -75,7 +77,7 @@ export default function MenuVeg() {
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
               <img
-                src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=927&amp;q=80"
+                src="https://ideogram.ai/api/images/direct/uLQe59K5RnWCqSnaJ8cBUQ.png"
                 alt="card-image"
                 className="object-cover w-full h-full"
               />
@@ -83,15 +85,17 @@ export default function MenuVeg() {
             <div className="p-6">
               <div className="flex items-center justify-between mb-2">
                 <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  Apple AirPods
+                  Chana Rice
                 </p>
                 <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  $95.00
+                  ₹69.00
                 </p>
               </div>
               <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                With plenty of talk and listen time, voice-activated Siri
-                access, and an available wireless charging case.
+                Calories: 275kcal <br />
+                ∙Protein: 11.7g <br />
+                ∙Carbs: 51.4g <br />
+                ∙Fats: 3.1g
               </p>
             </div>
             <div className="p-6 pt-0">
@@ -108,7 +112,7 @@ export default function MenuVeg() {
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
               <img
-                src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=927&amp;q=80"
+                src="https://ideogram.ai/api/images/direct/YB3KbEuBQJSpNyl1ZdvN_A.png"
                 alt="card-image"
                 className="object-cover w-full h-full"
               />
@@ -116,15 +120,17 @@ export default function MenuVeg() {
             <div className="p-6">
               <div className="flex items-center justify-between mb-2">
                 <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  Apple AirPods
+                  Tofu Meal
                 </p>
                 <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  $95.00
+                  ₹119.00
                 </p>
               </div>
               <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                With plenty of talk and listen time, voice-activated Siri
-                access, and an available wireless charging case.
+                Calories: 175kcal <br />
+                ∙Protein: 10.5g <br />
+                ∙Carbs: 25g <br />
+                ∙Fats: 4.3g
               </p>
             </div>
             <div className="p-6 pt-0">
