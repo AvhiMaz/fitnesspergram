@@ -7,6 +7,8 @@ const nextConfig = {
       "images.unsplash.com",
       "avatars.githubusercontent.com",
       "images.remotePatterns",
+      "freeimage.host",
+      "iili.io",
     ],
   },
 };

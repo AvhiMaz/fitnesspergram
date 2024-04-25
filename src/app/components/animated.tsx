@@ -19,14 +19,14 @@ const people = [
     name: "Uday Hajong",
     designation: "Finance / Product Manager",
     image:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+      "https://iili.io/JSyrAss.jpg",
   },
   {
     id: 4,
     name: "Afzal Mazumder",
     designation: "Marketing Incharge",
     image:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+      "https://iili.io/JSyePNs.jpg",
   },
 ];
 

@@ -26,10 +26,13 @@ export default function RootLayout({
           <div className="bg-black">
             <NavbarDemo />
             {children}
-            <footer className="text-center text-sm text-white">
-              © 2024 fitnesspergram | Email : info@fitnesspergram |<br /> Phone
-              : +917086615792 Business Address : uday ka ghar <br />
-              --------- @ ----------
+            <footer className="text-center text-white">
+              <p className="text-[10px]">
+                © 2024 fitnesspergram | Email : info@fitnesspergram.store |
+                <br /> Phone : +917086615792 | Business Address : Guwahati
+                <br />
+                --------- @ ----------
+              </p>
             </footer>
           </div>
         </body>

@@ -1,18 +1,15 @@
 import React from "react";
-import MenuVeg from "../components/veg";
-import MenuVegan from "../components/vegan";
-import TopUp from "../components/top-ups";
 
-export default function Menu() {
+export default function MenuVeg() {
   return (
     <>
-      <p className=" mt-32 text-center text-yellow-500 text-5xl">#NonVeg</p>
+    <p className="mt-32 text-center text-yellow-500 text-5xl">#Veg</p>
       <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4">
         <div className="mt-20 lg:mt-10 flex items-center justify-center">
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
               <img
-                src="https://ideogram.ai/api/images/direct/WU6_hTDWTKy6IsFrgS8zuQ.png"
+                src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=927&amp;q=80"
                 alt="card-image"
                 className="object-cover w-full h-full"
               />
@@ -20,17 +17,15 @@ export default function Menu() {
             <div className="p-6">
               <div className="flex items-center justify-between mb-2">
                 <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  Chicken Thali Twist
+                  Apple AirPods
                 </p>
                 <p className="block font-sans text-base antialiased font-medium leading-relaxed text-blue-gray-900">
-                  ₹130.00
+                  $95.00
                 </p>
               </div>
               <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
-                Calories: 300kcal <br/>
-                ∙Protein: 35g <br/>
-                ∙Carbs: 40g <br/>
-                ∙Fats: 26g
+                With plenty of talk and listen time, voice-activated Siri
+                access, and an available wireless charging case.
               </p>
             </div>
             <div className="p-6 pt-0">
@@ -143,9 +138,6 @@ export default function Menu() {
           </div>
         </div>
       </div>
-      <MenuVeg />
-      <MenuVegan />
-      <TopUp />
     </>
   );
 }
