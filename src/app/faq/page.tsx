@@ -5,16 +5,117 @@ import { CardStackDemo } from "../components/cstack";
 export default function SpotlightPreview() {
   return (
     <>
-      <div className="h-[40rem] flex-col w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
-        <Spotlight
-          className="-top-40 left-0 md:left-60 md:-top-20"
-          fill="white"
-        />
-        <CardStackDemo />
-      </div>
-      <div className="bg-black text-black">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nobis dolorem excepturi laborum eveniet quae et quaerat dolor. Quibusdam facere quia ratione nihil minima facilis, ipsam fugit non quos dolores quidem eos quam, nulla optio molestias, magnam laborum. Explicabo itaque nulla porro eius esse aliquam dolorum error aut, suscipit tempore quasi modi veritatis excepturi molestias, magnam quaerat pariatur praesentium quod sequi dolor. Saepe repellat itaque odio ducimus hic odit architecto praesentium cupiditate voluptate, aliquid quis blanditiis ipsum aliquam ipsa corrupti non doloremque sapiente quos, obcaecati veniam quo aspernatur sequi nulla. Consectetur repellendus nulla provident, culpa odio officia ea expedita sed cum nihil molestiae nobis beatae, veritatis ipsum natus, totam pariatur! Vero necessitatibus, eius vel cum sequi, omnis dignissimos architecto reiciendis ex ipsam, doloremque nostrum eaque quo rerum ab voluptas illum optio repellat suscipit. Nesciunt exercitationem nemo pariatur blanditiis recusandae voluptates vitae, nostrum aut veritatis adipisci incidunt obcaecati mollitia quos, laborum ipsa consectetur tempore vel eum autem nulla omnis cumque culpa asperiores odio? Reiciendis doloremque minima id eaque quisquam laborum accusamus. Facilis aperiam provident veritatis? Provident, ea! Fugit veritatis, eum voluptatibus voluptates laudantium, facere fuga ut quia voluptate libero accusamus eos labore, rerum accusantium sequi modi? Odit, omnis dolor. Et, earum quidem. Officia natus sed blanditiis voluptatem a id praesentium, labore neque ipsum culpa ullam itaque nam distinctio vero porro accusamus exercitationem fuga? Molestias corrupti atque deleniti, architecto qui commodi quos dolorem voluptate. Itaque saepe repellat architecto, voluptates vero et assumenda hic quas. Dignissimos, eos quod assumenda nostrum accusamus reprehenderit dolorum.
-      </div>
+      <section className="bg-[#1D1D1D] text-gray-100 py-32 min-h-screen">
+        <div className="container flex flex-col justify-center p-4 mx-auto md:p-8">
+          <h2 className="mb-12 text-4xl font-bold leadi text-center sm:text-5xl">
+            Frequently Asked Questions
+          </h2>
+          <div className="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
+            <details>
+              <summary className="py-2 outline-none cursor-pointer focus:underline">
+                How can I place an order?
+              </summary>
+              <div className="px-4 pb-4">
+                <p>
+                  You can easily place an order on our website by browsing our
+                  product catalog, selecting the items you want, and adding them
+                  to your cart. Then, proceed to checkout, where you can provide
+                  your shipping and payment information to complete the order.
+                </p>
+              </div>
+            </details>
+            <details>
+              <summary className="py-2 outline-none cursor-pointer focus:underline">
+                What payment methods do you accept?
+              </summary>
+              <div className="px-4 pb-4">
+                <p>
+                  We accept various payment methods, including credit cards,
+                  debit cards, net banking, and mobile wallet payments. You can
+                  choose the payment option that is most convenient for you
+                  during the checkout process.
+                </p>
+              </div>
+            </details>
+            <details>
+              <summary className="py-2 outline-none cursor-pointer focus:underline">
+                How long does shipping take?
+              </summary>
+              <div className="px-4 pb-4">
+                <p>
+                  Shipping times may vary depending on your location and the
+                  shipping method chosen. Typically, orders are processed within
+                  1-2 business days, and delivery can take 3-7 business days
+                  within India. You will receive a tracking notification once
+                  your order is shipped.
+                </p>
+              </div>
+            </details>
+            <details>
+              <summary className="py-2 outline-none cursor-pointer focus:underline">
+                Can I return a product if I'm not satisfied?
+              </summary>
+              <div className="px-4 pb-4">
+                <p>
+                  Yes, we have a hassle-free return policy. If you are not
+                  satisfied with your purchase, you can initiate a return within
+                  30 days of receiving the product. Please contact our customer
+                  support at{" "}
+                  <a href="" className="underline">
+                    example@gmail.com
+                  </a>{" "}
+                  for assistance.
+                </p>
+              </div>
+            </details>
+            <details>
+              <summary className="py-2 outline-none cursor-pointer focus:underline">
+                Do you offer international shipping?
+              </summary>
+              <div className="px-4 pb-4">
+                <p>
+                  Currently, we only provide shipping services within India.
+                  However, we may consider expanding our shipping options to
+                  international locations in the future. Please stay updated
+                  with our website for any changes in shipping destinations.
+                </p>
+              </div>
+            </details>
+            <details>
+              <summary className="py-2 outline-none cursor-pointer focus:underline">
+                What is your customer support contact?
+              </summary>
+              <div className="px-4 pb-4">
+                <p>
+                  If you have any questions, concerns, or need assistance, you
+                  can reach our customer support team at 9911083755 during our
+                  business hours, Monday to Saturday from 10 am to 6 pm. You can
+                  also contact us via email at{" "}
+                  <a href="" className="underline">
+                    example@gmail.com
+                  </a>
+                  .
+                </p>
+              </div>
+            </details>
+            <details>
+              <summary className="py-2 outline-none cursor-pointer focus:underline">
+                What are your terms and conditions?
+              </summary>
+              <div className="px-4 pb-4">
+                <p>
+                  You can find our detailed terms and conditions by visiting our
+                  <a href="" className="underline">
+                    Terms of Service
+                  </a>
+                  page on our website. It includes information about our
+                  policies, user guidelines, and more.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
