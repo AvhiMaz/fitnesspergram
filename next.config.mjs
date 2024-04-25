@@ -9,6 +9,7 @@ const nextConfig = {
       "images.remotePatterns",
       "freeimage.host",
       "iili.io",
+      "ideogram.ai"
     ],
   },
 };
