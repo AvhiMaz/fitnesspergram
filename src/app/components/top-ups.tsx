@@ -56,7 +56,7 @@ export default function TopUp() {
                 Chicken (50g)
               </h5>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-                Because it's about motivating the doers. Because I'm here to
+                Because it is about motivating the doers. Because I am here to
                 follow my dreams and inspire others.
               </p>
             </div>
@@ -171,7 +171,7 @@ export default function TopUp() {
                 Chicken (100g)
               </h5>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-                Because it's about motivating the doers. Because I'm here to
+                Because it is about motivating the doers. Because I am here to
                 follow my dreams and inspire others.
               </p>
             </div>
@@ -262,7 +262,7 @@ export default function TopUp() {
                 Paneer (50g)
               </h5>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-                Because it's about motivating the doers. Because I'm here to
+                Because it is about motivating the doers. Because I am here to
                 follow my dreams and inspire others.
               </p>
             </div>
@@ -327,7 +327,7 @@ export default function TopUp() {
                 Scrambled Eggs (2x)
               </h5>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-                Because it's about motivating the doers. Because I'm here to
+                Because it is about motivating the doers. Because I am here to
                 follow my dreams and inspire others.
               </p>
             </div>
