@@ -5,7 +5,7 @@ import { CardStackDemo } from "../components/cstack";
 export default function SpotlightPreview() {
   return (
     <>
-      <section className="bg-[#1D1D1D] text-gray-100 py-32 min-h-screen">
+      <section className="bg-black text-gray-100 py-32 min-h-screen">
         <div className="container flex flex-col justify-center p-4 mx-auto md:p-8">
           <h2 className="mb-12 text-4xl font-bold leadi text-center sm:text-5xl">
             Frequently Asked Questions
@@ -13,103 +13,101 @@ export default function SpotlightPreview() {
           <div className="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
             <details>
               <summary className="py-2 outline-none cursor-pointer focus:underline">
-                How can I place an order?
+              What is Fitnesspergram?
               </summary>
               <div className="px-4 pb-4">
                 <p>
-                  You can easily place an order on our website by browsing our
-                  product catalog, selecting the items you want, and adding them
-                  to your cart. Then, proceed to checkout, where you can provide
-                  your shipping and payment information to complete the order.
+                Fitnesspergram is a health-focused meal delivery service that provides calorie-counted, portion-controlled meals designed to support a balanced diet and fitness goals.
                 </p>
               </div>
             </details>
             <details>
               <summary className="py-2 outline-none cursor-pointer focus:underline">
-                What payment methods do you accept?
+              How does Fitnesspergram work?
               </summary>
               <div className="px-4 pb-4">
                 <p>
-                  We accept various payment methods, including credit cards,
-                  debit cards, net banking, and mobile wallet payments. You can
-                  choose the payment option that is most convenient for you
-                  during the checkout process.
+                Customers can subscribe to our meal plans on our website. We offer a variety of meal options to choose from. Once subscribed, meals are delivered daily based on the chosen plan.
                 </p>
               </div>
             </details>
             <details>
               <summary className="py-2 outline-none cursor-pointer focus:underline">
-                How long does shipping take?
+              What types of meals does Fitnesspergram offer?
               </summary>
               <div className="px-4 pb-4">
                 <p>
-                  Shipping times may vary depending on your location and the
-                  shipping method chosen. Typically, orders are processed within
-                  1-2 business days, and delivery can take 3-7 business days
-                  within India. You will receive a tracking notification once
-                  your order is shipped.
+                We offer a range of meals for once a day during lunch hours . Our meals are designed to be nutritious, balanced, and tailored to specific dietary needs.
                 </p>
               </div>
             </details>
             <details>
               <summary className="py-2 outline-none cursor-pointer focus:underline">
-                Can I return a product if I'm not satisfied?
+              Can I customize my meals?
               </summary>
               <div className="px-4 pb-4">
                 <p>
-                  Yes, we have a hassle-free return policy. If you are not
-                  satisfied with your purchase, you can initiate a return within
-                  30 days of receiving the product. Please contact our customer
-                  support at{" "}
-                  <a href="" className="underline">
-                    example@gmail.com
-                  </a>{" "}
-                  for assistance.
+                No, to ensure consistency , fitnesspergram doesn't offer any customization options other than topups as mentioned in the menu section of our website.
                 </p>
               </div>
             </details>
             <details>
               <summary className="py-2 outline-none cursor-pointer focus:underline">
-                Do you offer international shipping?
+              Where does Fitnesspergram deliver?
               </summary>
               <div className="px-4 pb-4">
                 <p>
-                  Currently, we only provide shipping services within India.
-                  However, we may consider expanding our shipping options to
-                  international locations in the future. Please stay updated
-                  with our website for any changes in shipping destinations.
+                Currently, we deliver in select areas of Narengi, Guwahati. We are working towards expanding our delivery network to cover more locations in the future.
                 </p>
               </div>
             </details>
             <details>
               <summary className="py-2 outline-none cursor-pointer focus:underline">
-                What is your customer support contact?
+              What are the subscription options available?
               </summary>
               <div className="px-4 pb-4">
                 <p>
-                  If you have any questions, concerns, or need assistance, you
-                  can reach our customer support team at 9911083755 during our
-                  business hours, Monday to Saturday from 10 am to 6 pm. You can
-                  also contact us via email at{" "}
-                  <a href="" className="underline">
-                    example@gmail.com
-                  </a>
-                  .
+                We offer flexible subscription plans including weekly and monthly options. Customers can choose the plan that best suits their needs and lifestyle.
                 </p>
               </div>
             </details>
             <details>
               <summary className="py-2 outline-none cursor-pointer focus:underline">
-                What are your terms and conditions?
+              How are the meals packaged and delivered?
               </summary>
               <div className="px-4 pb-4">
                 <p>
-                  You can find our detailed terms and conditions by visiting our
-                  <a href="" className="underline">
-                    Terms of Service
-                  </a>
-                  page on our website. It includes information about our
-                  policies, user guidelines, and more.
+                Our meals are freshly prepared and delivered in convenient packaging. They are delivered in bulk at a designated time slot to ensure freshness.
+                </p>
+              </div>
+            </details>
+            <details>
+              <summary className="py-2 outline-none cursor-pointer focus:underline">
+              Is there a minimum subscription period?
+              </summary>
+              <div className="px-4 pb-4">
+                <p>
+                No, there is no minimum subscription period. Customers can subscribe and cancel their plan at any time.
+                </p>
+              </div>
+            </details>
+            <details>
+              <summary className="py-2 outline-none cursor-pointer focus:underline">
+              What if I have specific dietary requirements or allergies?
+              </summary>
+              <div className="px-4 pb-4">
+                <p>
+                Although we do not accommodate specific dietary requirements, Please feel free to inform us of any restrictions or preferences when placing your order.
+                </p>
+              </div>
+            </details>
+            <details>
+              <summary className="py-2 outline-none cursor-pointer focus:underline">
+              What is Fitnesspergram's cancellation policy?
+              </summary>
+              <div className="px-4 pb-4">
+                <p>
+                We do not offer a refund on any cancellations. once an order is placed , it can be cancelled any time but no refund will be issued to the customer.
                 </p>
               </div>
             </details>
