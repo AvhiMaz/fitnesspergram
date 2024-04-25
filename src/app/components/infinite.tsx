@@ -18,31 +18,53 @@ export function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+      "I absolutely loved the concept of Fitnesspergram! The meals were not only healthy but also incredibly delicious. The packaging was neat and convenient. Looking forward to subscribing regularly!",
+    name: "Dipankar Saikia",
+    title: "",
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
+      "The meals from Fitnesspergram exceeded my expectations. Each dish was bursting with flavor, and the portion sizes were just right. The idea of calorie-counted meals delivered daily is brilliant!",
+    name: "Rima Devi",
+    title: "",
   },
   {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
-  },
-  {
-    quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
+    quote: "Fitnesspergram's meals are a game-changer for anyone looking to eat healthier without compromising on taste. The packaging kept everything fresh, and I appreciated the variety of options available.",
+    name: "Hemanta Borah",
+    title: "",
   },
   {
     quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
+      "I'm so impressed with Fitnesspergram's approach. The meals tasted homemade and were packed with nutrients. The packaging was eco-friendly too! Can't wait to continue this journey.",
+    name: "Ananya Baruah",
+    title: "",
   },
+  {
+    quote:
+      "Kudos to Fitnesspergram for making healthy eating so enjoyable! The meals were not only visually appealing but also incredibly tasty. It's the perfect solution for busy individuals.",
+    name: "Debajit Sharma",
+    title: "",
+  },
+  {
+    quote:
+      "Fitnesspergram's meals were a pleasant surprise! The flavors were well-balanced, and I loved the convenience of having nutritious meals delivered daily. Highly recommend trying it out!",
+    name: "Suman Das",
+    title: "",
+  },
+  {
+    quote:
+      "I'm grateful for discovering Fitnesspergram. The meals were fresh, flavorful, and thoughtfully prepared. The concept of calorie-controlled meals delivered to your doorstep is fantastic!",
+    name: "Priya Hazarika",
+    title: "",
+  },
+  {
+    quote: "Fitnesspergram is a game-changer! The meals were not only healthy but also incredibly tasty. I appreciate the effort put into creating balanced meals for busy individuals like me.",
+    name: "Pallavi Barman",
+    title: ""
+  },
+  {
+    quote: "I'm so glad I tried Fitnesspergram. The meals were top-notch in terms of taste and quality. The concept of having calorie-controlled meals delivered daily is brilliant for maintaining a healthy lifestyle.",
+    name: "Saurav Das",
+    title: ""
+  }
 ];
