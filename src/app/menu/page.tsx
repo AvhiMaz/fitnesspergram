@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import MenuVeg from "../components/veg";
 import MenuVegan from "../components/vegan";
@@ -28,9 +30,9 @@ export default function Menu() {
               </div>
               <p className="block font-sans text-sm antialiased font-normal leading-normal text-gray-700 opacity-75">
                 Calories: 300kcal <br/>
-                ∙Protein: 35g <br/>
-                ∙Carbs: 40g <br/>
-                ∙Fats: 26g
+                 Protein: 35g <br/>
+                 Carbs: 40g <br/>
+                 Fats: 26g
               </p>
             </div>
             <div className="p-6 pt-0">
