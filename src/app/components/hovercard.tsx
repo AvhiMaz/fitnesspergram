@@ -33,7 +33,7 @@ export const projects = [
     title: "Drop a Mail",
     description:
       "For enquiries, doubts, support or anything else reach us at fitnesspergram@gmail.com",
-    link: "mailto:fitnesspergram@gmail.com",
+    link: "mailto:info@fitnesspergram.store",
     br: "",
   },
   {
