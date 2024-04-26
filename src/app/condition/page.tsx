@@ -3,7 +3,7 @@ import React from "react";
 export default function TermsAndConditions() {
   return (
     <>
-      <div className="mx-0 lg:mx-32 text-black dark:text-white">
+      <div className="mx-0 lg:mx-32 text-white dark:text-white">
         <div className="mt-20 flex justify-center items-center">
           <h1 className="text-2xl lg:text-4xl text-center text-yellow-500">
             Terms and Conditions
