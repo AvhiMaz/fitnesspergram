@@ -2,6 +2,9 @@ export default function Recipe() {
   return (
     <>
     <div className="min-h-screen flex justify-center items-center">
+    <h1 className="text-5xl text-center text-white text-italic">Under development...</h1>
+    </div>
+    {/* <div className="min-h-screen flex justify-center items-center">
       <a
         className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
       >
@@ -16,12 +19,12 @@ export default function Recipe() {
           </h5>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
             Here are the biggest enterprise technology acquisitions of 2021 so
-            far, in reverse chronological order. Here are the biggest enterprise technology acquisitions of 2021 so
             far, in reverse chronological order.
           </p>
         </div>
       </a>
-      </div>
+      </div> */}
+      
     </>
   );
 }
