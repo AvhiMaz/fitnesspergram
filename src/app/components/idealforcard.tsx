@@ -15,7 +15,7 @@ export default function IdealCard() {
             </div>
             <div className="p-6 text-center">
               <h1 className="text-bold text-2xl text-center">For workholic</h1>
-              <p className="text-base">
+              <p className="text-base text-slate-400">
                 Get nutritious and budget-friendly Thali meals delivered
                 directly to your workplace. Save time, boost focus, and enhance
                 productivity every day with healthy food available at the click
@@ -34,7 +34,7 @@ export default function IdealCard() {
             <div className="p-6 text-center">
               <h1 className="text-bold text-2xl text-center">For Athletes</h1>
 
-              <p className="text-base">
+              <p className="text-base text-slate-400">
                 Enjoy meals that are gluten-free or high in protein, low in fat,
                 and packed with nutrients to strengthen your body and optimize
                 your performance to have optimal focus for your goals.
@@ -52,7 +52,7 @@ export default function IdealCard() {
             <div className="p-6 text-center">
               <h1 className="text-bold text-2xl text-center">For Students</h1>
 
-              <p className="text-base">
+              <p className="text-base text-slate-400">
                 Students, we've got you covered. Our nutrition-rich thali meal
                 plan provides the perfect food options tailored for you,
                 conveniently packaged in a meal kit that can be taken anywhere.
@@ -70,7 +70,7 @@ export default function IdealCard() {
             <div className="p-6 text-center">
               <h1 className="text-bold text-2xl text-center">For Gymbros</h1>
 
-              <p className="text-base">
+              <p className="text-base text-slate-400">
                 Your health is our priority. That's why we provide weekly meal
                 plans designed for various needs, whether it's weight loss,
                 muscle gain, or overall fitness. We assist you in reaching your
