@@ -4,6 +4,7 @@ import React from "react";
 import MenuVeg from "../components/veg";
 import MenuVegan from "../components/vegan";
 import TopUp from "../components/top-ups";
+import Sidebar from "../components/sidebar";
 
 export default function Menu() {
   return (
@@ -154,6 +155,7 @@ export default function Menu() {
       <MenuVeg />
       <MenuVegan />
       <TopUp />
+      <Sidebar />
     </>
   );
 }

@@ -3,6 +3,7 @@ import { InfiniteMovingCardsDemo } from "./components/infinite";
 import { AnimatedTooltipPreview } from "./components/animated";
 import IdealCard from "./components/idealforcard";
 import { WobbleCardDemo } from "./components/whyfitnesspergram";
+import How from "./components/how-it-works";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
           #HowItWorks
         </h1>
       </div>
-
+      <How />
       <div>
         <h1 className="flex items-center text-yellow-500 justify-center text-4xl">
           #Whyfitnesspergram

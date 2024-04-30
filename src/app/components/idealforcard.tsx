@@ -3,20 +3,23 @@ import React from "react";
 export default function IdealCard() {
   return (
     <>
-      <div className="">
-        <div className="grid lg:grid-cols-6 gap-2 mt-10 mb-10 justify-center items-center">
+      <div className="flex items-center justify-center">
+        <div className="grid lg:grid-cols-4 gap-7 mt-10 mb-10 justify-center items-center">
           <div className="block max-w-[18rem] rounded-lg text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white">
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
               <img
                 className="rounded-t-lg"
-                src="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
+                src="https://ideogram.ai/api/images/direct/Cakezo40ShmoTsAhXJSEiw.png"
                 alt=""
               />
             </div>
-            <div className="p-6">
+            <div className="p-6 text-center">
+              <h1 className="text-bold text-2xl text-center">For workholic</h1>
               <p className="text-base">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Get nutritious and budget-friendly Thali meals delivered
+                directly to your workplace. Save time, boost focus, and enhance
+                productivity every day with healthy food available at the click
+                of a button.
               </p>
             </div>
           </div>
@@ -24,14 +27,17 @@ export default function IdealCard() {
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
               <img
                 className="rounded-t-lg"
-                src="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
+                src="https://ideogram.ai/api/images/direct/kbVi7ZB7TJGh27Avpz-jcQ.jpg"
                 alt=""
               />
             </div>
-            <div className="p-6">
+            <div className="p-6 text-center">
+              <h1 className="text-bold text-2xl text-center">For Athletes</h1>
+
               <p className="text-base">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Enjoy meals that are gluten-free or high in protein, low in fat,
+                and packed with nutrients to strengthen your body and optimize
+                your performance to have optimal focus for your goals.
               </p>
             </div>
           </div>
@@ -39,14 +45,17 @@ export default function IdealCard() {
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
               <img
                 className="rounded-t-lg"
-                src="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
+                src="https://ideogram.ai/api/images/direct/FsdkpRnCQA6IiC1twycTzg.jpg"
                 alt=""
               />
             </div>
-            <div className="p-6">
+            <div className="p-6 text-center">
+              <h1 className="text-bold text-2xl text-center">For Students</h1>
+
               <p className="text-base">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Students, we've got you covered. Our nutrition-rich thali meal
+                plan provides the perfect food options tailored for you,
+                conveniently packaged in a meal kit that can be taken anywhere.
               </p>
             </div>
           </div>
@@ -54,44 +63,18 @@ export default function IdealCard() {
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
               <img
                 className="rounded-t-lg"
-                src="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
+                src="https://ideogram.ai/api/images/direct/faHC6ca0Qs6EFNqWAETRpw.png"
                 alt=""
               />
             </div>
-            <div className="p-6">
+            <div className="p-6 text-center">
+              <h1 className="text-bold text-2xl text-center">For Gymbros</h1>
+
               <p className="text-base">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-          <div className="block max-w-[18rem] rounded-lg text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white">
-            <div className="relative overflow-hidden bg-cover bg-no-repeat">
-              <img
-                className="rounded-t-lg"
-                src="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-                alt=""
-              />
-            </div>
-            <div className="p-6">
-              <p className="text-base">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-          <div className="block max-w-[18rem] rounded-lg text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white">
-            <div className="relative overflow-hidden bg-cover bg-no-repeat">
-              <img
-                className="rounded-t-lg"
-                src="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-                alt=""
-              />
-            </div>
-            <div className="p-6">
-              <p className="text-base">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Your health is our priority. That's why we provide weekly meal
+                plans designed for various needs, whether it's weight loss,
+                muscle gain, or overall fitness. We assist you in reaching your
+                fitness goals.
               </p>
             </div>
           </div>
