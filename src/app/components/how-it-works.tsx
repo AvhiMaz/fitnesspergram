@@ -1,96 +1,48 @@
-import React from "react";
+"use client"
 
-export default function How() {
+import Image from 'next/image';
+
+const HomePage = () => {
   return (
-    <>
-      <div>
-        <section className="text-gray-700 body-font">
-          <div className="container px-5 py-24 mx-auto">
-            <div className="flex flex-wrap -m-4 text-center">
-              <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                <div className="border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="text-indigo-500 w-12 h-12 mb-3 inline-block"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M8 17l4 4 4-4m-4-5v9"></path>
-                    <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
-                  </svg>
-                  <h2 className="title-font font-medium text-3xl text-gray-900">
-                    2.7K
-                  </h2>
-                  <p className="leading-relaxed">Downloads</p>
-                </div>
-              </div>
-              <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                <div className="border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="text-indigo-500 w-12 h-12 mb-3 inline-block"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
-                    <circle cx="9" cy="7" r="4"></circle>
-                    <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
-                  </svg>
-                  <h2 className="title-font font-medium text-3xl text-gray-900">
-                    1.3K
-                  </h2>
-                  <p className="leading-relaxed">Users</p>
-                </div>
-              </div>
-              <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                <div className="border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="text-indigo-500 w-12 h-12 mb-3 inline-block"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M3 18v-6a9 9 0 0118 0v6"></path>
-                    <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"></path>
-                  </svg>
-                  <h2 className="title-font font-medium text-3xl text-gray-900">
-                    74
-                  </h2>
-                  <p className="leading-relaxed">Files</p>
-                </div>
-              </div>
-              <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                <div className="border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="text-indigo-500 w-12 h-12 mb-3 inline-block"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                  </svg>
-                  <h2 className="title-font font-medium text-3xl text-gray-900">
-                    46
-                  </h2>
-                  <p className="leading-relaxed">Places</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+    <div className="h-screen mt-10 flex flex-col">
+      {/* Fixed Background 1 */}
+      <div className="flex-1 relative bg-cover bg-center cd-fixed-bg cd-bg-1">
+        <Image
+          src="https://ideogram.ai/api/images/direct/nWoS1mvzT5WCXvQqizmFFw.png"
+          alt="Background Image"
+          layout="fill"
+          objectFit="cover"
+        />
+        <div className="absolute inset-0 flex justify-center items-center">
+          <h1 className="text-white text-4xl md:text-6xl max-w-2xl text-center">
+            Alternating fixed/scrolling backgrounds Pure CSS
+          </h1>
+        </div>
       </div>
-    </>
+
+      {/* Scrolling Background 1 */}
+      <div className="flex-1 bg-gray-800 text-gray-400 cd-scrolling-bg cd-color-2">
+        <div className="cd-container py-16 px-4 md:px-0 mx-auto max-w-screen-md">
+          <p className="mb-4">
+            For this pen I included only the vanilla CSS and only that necessary to demonstrate the effect but on the
+            author's site at{' '}
+            <a href="https://codyhouse.co/gem/alternate-fixed-scroll-backgrounds/" className="text-purple-300">
+              codyhouse.co
+            </a>
+            , the creators are using Sass which I think is nicer. But for the sake of simplicity for this example I
+            took the easy way out.
+          </p>
+          <p className="mb-4">
+            As anyone who has tried knows, implementing sample code such as this into a site with a different
+            architecture can be a little tricky but I did manage to weave it into a pre-existing project with a little
+            work. I love the effect!
+          </p>
+        </div>
+      </div>
+
+      {/* Add more sections with fixed backgrounds and scrolling content as needed */}
+    </div>
   );
-}
+};
+
+export default HomePage;
