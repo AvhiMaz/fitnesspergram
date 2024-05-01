@@ -1,7 +1,7 @@
 // pages/sidebar.tsx
 
-import { useState } from 'react';
-import { NextPage } from 'next';
+import { useState } from "react";
+import { NextPage } from "next";
 
 const Sidebar: NextPage = () => {
   const [open, setOpen] = useState<boolean>(false);
@@ -10,9 +10,21 @@ const Sidebar: NextPage = () => {
     <>
       <div className="relative">
         <div className="fixed bottom-4 left-4 z-50">
-          <button onClick={() => setOpen(true)} className="px-4 py-2 bg-black text-white rounded-md">
-            {' '}
-            Open Sidebar{' '}
+          <button
+            onClick={() => setOpen(true)}
+            className="px-4 py-2 bg-yellow-500 rounded-full"
+          >
+            {" "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              id="cart"
+              width="50px"
+              height="60px"
+              version="1.1"
+              viewBox="0 0 52 52"
+            >
+              <path d="m43.51 32.165 6.44-19.17a1 1 0 0 0-.14-.9.986.986 0 0 0-.81-.41H12.74l-1.29-5.21c-.47-1.66-2-2.82-3.72-2.82H3c-.55 0-1 .44-1 1 0 .55.45 1 1 1h4.73c.83 0 1.57.56 1.78 1.33l7.99 32.18a4.696 4.696 0 0 0-3.32 4.49c0 2.58 2.1 4.69 4.69 4.69 2.58 0 4.68-2.11 4.68-4.69 0-1-.31-1.93-.84-2.69h15.88c-.54.76-.85 1.69-.85 2.69 0 2.58 2.1 4.69 4.68 4.69 2.59 0 4.69-2.11 4.69-4.69 0-2.59-2.1-4.69-4.69-4.69-.04 0-.09 0-.13.01-.02-.01-.04-.01-.06-.01H19.51l-1.52-6.11h24.57c.43 0 .81-.28.95-.69z"></path>
+            </svg>
           </button>
         </div>
         {open && (
@@ -36,7 +48,12 @@ const Sidebar: NextPage = () => {
                         stroke="currentColor"
                         aria-hidden="true"
                       >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M6 18L18 6M6 6l12 12"
+                        />
                       </svg>
                     </button>
                   </div>
@@ -57,8 +74,12 @@ const Sidebar: NextPage = () => {
                           key={index}
                           className="bg-gray-50 hover:bg-gray-100 p-4 cursor-pointer rounded-md border border-gray-300 transition-colors duration-300"
                         >
-                          <h3 className="text-lg font-semibold text-black mb-2">Card {index}</h3>
-                          <p className="text-gray-600">Content for card {index}.</p>
+                          <h3 className="text-lg font-semibold text-black mb-2">
+                            Card {index}
+                          </h3>
+                          <p className="text-gray-600">
+                            Content for card {index}.
+                          </p>
                         </div>
                       ))}
                     </div>
@@ -73,7 +94,11 @@ const Sidebar: NextPage = () => {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <g id="SVGRepo_bgCarrier" strokeWidth={0} />
-                        <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" />
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
                         <g id="SVGRepo_iconCarrier">
                           <path
                             fillRule="evenodd"
@@ -82,8 +107,8 @@ const Sidebar: NextPage = () => {
                             fill="currentColor"
                           />
                         </g>
-                      </svg>{' '}
-                      Filters{' '}
+                      </svg>{" "}
+                      Filters{" "}
                     </button>
                   </div>
                 </div>

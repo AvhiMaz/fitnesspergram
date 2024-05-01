@@ -1,48 +1,105 @@
-"use client"
+"use client";
 
-import Image from 'next/image';
+import React from "react";
 
-const HomePage = () => {
+const How: React.FC = () => {
   return (
-    <div className="h-screen mt-10 flex flex-col">
-      {/* Fixed Background 1 */}
-      <div className="flex-1 relative bg-cover bg-center cd-fixed-bg cd-bg-1">
-        <Image
-          src="https://ideogram.ai/api/images/direct/nWoS1mvzT5WCXvQqizmFFw.png"
-          alt="Background Image"
-          layout="fill"
-          objectFit="cover"
-        />
-        <div className="absolute inset-0 flex justify-center items-center">
-          <h1 className="text-white text-4xl md:text-6xl max-w-2xl text-center">
-            Alternating fixed/scrolling backgrounds Pure CSS
-          </h1>
+    <>
+      <div className="wrapper mt-20 flex items-center justify-center">
+        <div className="fixed-bg bg-1">
+          <div className="flex items-center justify-center mt-0 lg:mt-[70px] ">
+            <div className="grid lg:grid-cols-4 gap-7 lg:gap-28 mt-10 mb-10 justify-center items-center">
+              <div className="block max-w-[18rem] rounded-lg text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white">
+                <div className="p-6 text-center bg-slate-900 rounded-lg">
+                  <h1 className="text-bold text-white text-2xl text-center underline">
+                    Login and Register
+                  </h1>
+                  <p className="text-base text-white">
+                    Embark on your personal fitness journey; join us today
+                  </p>
+                </div>
+              </div>
+              <div className="block max-w-[18rem] rounded-lg text-surface shadow-secondary-1 dark:bg-surface-dark text-white">
+                <div className="p-6 text-center bg-slate-900 rounded-lg">
+                  <h1 className="text-bold text-2xl text-center underline">
+                    Choose your plan
+                  </h1>
+
+                  <p className="text-base text-white text-center">
+                    Choose the right diet plan you prefer and find your right
+                    fit.
+                  </p>
+                </div>
+              </div>
+              <div className="block max-w-[18rem] rounded-lg text-surface shadow-secondary-1 dark:bg-surface-dark text-white">
+                <div className="p-6 text-center bg-slate-900 rounded-lg">
+                  <h1 className="text-bold text-white text-2xl text-center underline">
+                    Order as you prefer
+                  </h1>
+
+                  <p className="text-base text-white text-center">
+                    Select the duration of your plan as you like.
+                  </p>
+                </div>
+              </div>
+              <div className="block max-w-[18rem] rounded-lg text-surface shadow-secondary-1 dark:bg-surface-dark text-white">
+                <div className="p-6 text-center bg-slate-900 rounded-lg">
+                  <h1 className="text-bold underline text-2xl text-center">
+                    Get fit with fitnesspergram
+                  </h1>
+
+                  <p className="text-base text-white">
+                    Join our fitness journey and achieve your goals.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <style jsx>{`
+        .wrapper {
+          font-family: "Quicksand", sans-serif;
+          line-height: 1.5;
+          word-spacing: 4px;
+          letter-spacing: 1px;
+        }
 
-      {/* Scrolling Background 1 */}
-      <div className="flex-1 bg-gray-800 text-gray-400 cd-scrolling-bg cd-color-2">
-        <div className="cd-container py-16 px-4 md:px-0 mx-auto max-w-screen-md">
-          <p className="mb-4">
-            For this pen I included only the vanilla CSS and only that necessary to demonstrate the effect but on the
-            author's site at{' '}
-            <a href="https://codyhouse.co/gem/alternate-fixed-scroll-backgrounds/" className="text-purple-300">
-              codyhouse.co
-            </a>
-            , the creators are using Sass which I think is nicer. But for the sake of simplicity for this example I
-            took the easy way out.
-          </p>
-          <p className="mb-4">
-            As anyone who has tried knows, implementing sample code such as this into a site with a different
-            architecture can be a little tricky but I did manage to weave it into a pre-existing project with a little
-            work. I love the effect!
-          </p>
-        </div>
-      </div>
+        .fixed-bg {
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          height: 100%;
+          width: 100%;
+          color: white;
+          text-align: center;
+          display: table;
+        }
 
-      {/* Add more sections with fixed backgrounds and scrolling content as needed */}
-    </div>
+        .fixed-bg h1 {
+          display: table-cell;
+          vertical-align: middle;
+        }
+
+        .bg-1 {
+          background-image: url("https://iili.io/JgEXpIV.png");
+        }
+        @media (max-width: 768px) {
+          .wrapper {
+            height: 120vh; /* Set height to 200vh for mobile */
+          }
+        }
+
+        /* Media query for laptops and larger screens */
+        @media (min-width: 769px) {
+          .wrapper {
+            height: 40vh; /* Set height to 100vh for laptops */
+          }
+        }
+      `}</style>
+    </>
   );
 };
 
-export default HomePage;
+export default How;
