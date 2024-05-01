@@ -38,7 +38,7 @@ function BmiCalculator() {
         #BMICalculator
       </h1>
       <div className="input-container mb-4">
-        <label htmlFor="height" className="block font-bold mb-1">
+        <label htmlFor="height" className="block font-bold mb-1 text-white dark:text-white">
           Enter Your Height (cm):
         </label>
         <input
@@ -50,7 +50,7 @@ function BmiCalculator() {
         />
       </div>
       <div className="input-container mb-4">
-        <label htmlFor="weight" className="block font-bold mb-1">
+        <label htmlFor="weight" className="block font-bold mb-1  text-white dark:text-white">
           Enter Your Weight (kg):
         </label>
         <input
@@ -69,10 +69,10 @@ function BmiCalculator() {
       </button>
       {bmiValue !== "" && bmiMessage !== "" && (
         <div className="result mt-4 p-2 bg-black rounded-md">
-          <p>
+          <p className="text-white dark:text-white">
             Your BMI: <span className="bmi-value font-bold">{bmiValue}</span>
           </p>
-          <p>
+          <p className="text-white dark:text-white">
             Result:{" "}
             <span className="bmi-message text-rose-500 font-bold">
               {bmiMessage}

@@ -45,7 +45,7 @@ export default function IdealCard() {
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
               <img
                 className="rounded-t-lg"
-                src="https://ideogram.ai/api/images/direct/FsdkpRnCQA6IiC1twycTzg.jpg"
+                src="https://ideogram.ai/api/images/direct/xgzotLNmRvmk70mr6zJ9vQ.png"
                 alt=""
               />
             </div>
