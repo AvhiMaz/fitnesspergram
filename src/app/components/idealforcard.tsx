@@ -4,7 +4,7 @@ export default function IdealCard() {
   return (
     <>
       <div className="flex items-center justify-center">
-        <div className="grid lg:grid-cols-4 gap-7 mt-10 mb-10 justify-center items-center">
+        <div className="grid lg:grid-cols-4 gap-7 lg:gap-28 mt-10 mb-10 justify-center items-center">
           <div className="block max-w-[18rem] rounded-lg text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white">
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
               <img
@@ -13,9 +13,9 @@ export default function IdealCard() {
                 alt=""
               />
             </div>
-            <div className="p-6 text-center">
-              <h1 className="text-bold text-2xl text-center">For workholic</h1>
-              <p className="text-base text-slate-400">
+            <div className="p-6 text-center bg-white">
+              <h1 className="text-bold text-black text-2xl text-center">For workholic</h1>
+              <p className="text-base text-black">
                 Get nutritious and budget-friendly Thali meals delivered
                 directly to your workplace. Save time, boost focus, and enhance
                 productivity every day with healthy food available at the click
@@ -31,7 +31,7 @@ export default function IdealCard() {
                 alt=""
               />
             </div>
-            <div className="p-6 text-center">
+            <div className="p-6 text-center bg-slate-900">
               <h1 className="text-bold text-2xl text-center">For Athletes</h1>
 
               <p className="text-base text-slate-400">
@@ -49,10 +49,10 @@ export default function IdealCard() {
                 alt=""
               />
             </div>
-            <div className="p-6 text-center">
-              <h1 className="text-bold text-2xl text-center">For Students</h1>
+            <div className="p-6 text-center bg-white">
+              <h1 className="text-bold text-black text-2xl text-center">For Students</h1>
 
-              <p className="text-base text-slate-400">
+              <p className="text-base text-black">
                 Students, we've got you covered. Our nutrition-rich thali meal
                 plan provides the perfect food options tailored for you,
                 conveniently packaged in a meal kit that can be taken anywhere.
@@ -67,7 +67,7 @@ export default function IdealCard() {
                 alt=""
               />
             </div>
-            <div className="p-6 text-center">
+            <div className="p-6 text-center bg-slate-900">
               <h1 className="text-bold text-2xl text-center">For Gymbros</h1>
 
               <p className="text-base text-slate-400">
