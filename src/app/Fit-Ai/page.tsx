@@ -1,6 +1,6 @@
 "use client";
 
-import { Plus, Send, SendIcon } from "lucide-react";
+import { Plus, SendIcon } from "lucide-react";
 import React from "react";
 
 export default function AI() {
@@ -12,7 +12,7 @@ export default function AI() {
           -
         </div>
       </div>
-      <div className="">
+      <div className="fixed bottom-0 left-0 w-full bg-black mb-5">
         <div className="mx-3 lg:mx-10">
           <form>
             <label className="sr-only">Your message</label>
