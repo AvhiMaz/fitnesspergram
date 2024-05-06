@@ -1,20 +1,45 @@
 "use client";
 
 import { Plus, SendIcon } from "lucide-react";
-import React from "react";
+import React, { useState } from "react";
 
 export default function AI() {
+  const [messages, setMessages] = useState<string[]>([]);
+  const [introDivVisible, setIntroDivVisible] = useState(true);
+
+  const handleMessageSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const message = (
+      e.currentTarget.elements.namedItem("chat") as HTMLTextAreaElement
+    ).value;
+    if (message.trim() !== "") {
+      setMessages((prevMessages) => [...prevMessages, message.trim()]);
+      (
+        e.currentTarget.elements.namedItem("chat") as HTMLTextAreaElement
+      ).value = "";
+      setIntroDivVisible(false);
+    }
+  };
   return (
     <>
       <div className="min-h-screen flex justify-center items-center">
-        <div className="bg-slate-800 h-28 w-54 lg:h-48 lg:w-96 text-center flex items-center justify-center rounded-lg">
-          - Post what you eat in a day - <br />- To keep track of your calories
-          -
+        <div>
+          {messages.map((message, index) => (
+            <div key={index} className="text-white">
+              {message}
+            </div>
+          ))}
         </div>
+        {introDivVisible && (
+          <div className="bg-slate-800 h-28 w-80 lg:h-48 lg:w-96 text-center flex items-center justify-center rounded-lg">
+            - Post what you eat in a day - <br />- To keep track of your
+            calories -
+          </div>
+        )}
       </div>
       <div className="fixed bottom-0 left-0 w-full bg-black mb-5">
         <div className="mx-3 lg:mx-10">
-          <form>
+          <form onSubmit={handleMessageSubmit}>
             <label className="sr-only">Your message</label>
             <div className="flex items-center px-3 py-2 rounded-lg bg-gray-50 dark:bg-gray-700">
               <button
