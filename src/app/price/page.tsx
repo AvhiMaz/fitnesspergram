@@ -21,7 +21,7 @@ const words = [
   },
   {
     text: "@fitnesspergram.store",
-    className: "text-rose-900 dark:text-[#f97316]",
+    className: "text-[#f97316] dark:text-[#f97316]",
   },
 ];
 
