@@ -32,7 +32,7 @@ export default function IdealCard() {
               />
             </div>
             <div className="p-6 text-center bg-slate-900">
-              <h1 className="text-bold text-2xl text-center">For Athletes</h1>
+              <h1 className="text-bold text-2xl text-white text-center">For Athletes</h1>
 
               <p className="text-base text-slate-400">
                 Enjoy meals that are gluten-free or high in protein, low in fat,
@@ -68,7 +68,7 @@ export default function IdealCard() {
               />
             </div>
             <div className="p-6 text-center bg-slate-900">
-              <h1 className="text-bold text-2xl text-center">For Gymbros</h1>
+              <h1 className="text-bold text-2xl text-white text-center">For Gymbros</h1>
 
               <p className="text-base text-slate-400">
                 Your health is our priority. That's why we provide weekly meal

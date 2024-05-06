@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useState, useEffect } from "react";
 import { Bar } from "react-chartjs-2";
@@ -71,8 +71,10 @@ const BarChart = () => {
 
   return (
     <>
-      <div className="w-full mt-20 flex justify-center items-center relative p-4 rounded-lg bg-black">
-        <Bar data={chartData} options={chartOptions} />
+      <div className="bg-black min-h-screen">
+        <div className="w-full mt-20 flex justify-center items-center relative p-4 rounded-lg bg-black">
+          <Bar data={chartData} options={chartOptions} />
+        </div>
       </div>
     </>
   );
