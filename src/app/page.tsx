@@ -1,5 +1,4 @@
-"use client"
-
+"use client";
 
 import Link from "next/link";
 import { useState } from "react";
@@ -23,7 +22,7 @@ export default function Home() {
 
   return (
     <>
-      {showChatBotText && (
+      {/* {showChatBotText && (
         <div className="fixed top-5 right-5 flex items-center bg-white rounded-md p-2 shadow-md">
           <p className="mr-2">Ask our chat bot</p>
           <button onClick={handleRemoveChatBotText}>
@@ -41,7 +40,7 @@ export default function Home() {
             </svg>
           </button>
         </div>
-      )}
+      )} */}
       <SpotlightPreview />
       <div className="flex items-center justify-center"></div>
       <div>
@@ -74,6 +73,7 @@ export default function Home() {
           className="fixed bottom-10 rounded-full right-10 bg-yellow-500 text-white px-4 py-2 shadow-lg z-10"
         >
           <svg
+            className="w-[25px] h-[40px] lg:h-[65px] lg:w-[50px]"
             width="50px"
             height="65px"
             viewBox="0 0 512 512"

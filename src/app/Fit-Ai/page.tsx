@@ -64,7 +64,7 @@ export default function AI() {
               ></textarea>
               <button
                 type="submit"
-                className="inline-flex justify-center p-2 text-yellow-600 rounded-full cursor-pointer hover:bg-yellow-100 dark:text-yellow-500 dark:hover:bg-gray-600"
+                className="inline-flex justify-center p-2 text-yellow-500 rounded-full cursor-pointer hover:bg-yellow-500 dark:text-yellow-500 dark:hover:bg-gray-600"
               >
                 <SendIcon />
                 <span className="sr-only">Send message</span>

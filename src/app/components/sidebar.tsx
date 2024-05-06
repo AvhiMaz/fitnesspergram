@@ -18,8 +18,7 @@ const Sidebar: NextPage = () => {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               id="cart"
-              width="50px"
-              height="60px"
+              className="w-[25px] h-[40px] lg:h-[65px] lg:w-[50px]"
               version="1.1"
               viewBox="0 0 52 52"
             >
