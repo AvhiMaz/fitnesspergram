@@ -3,7 +3,7 @@
 import { Plus, Send, SendIcon } from "lucide-react";
 import React from "react";
 
-export default function () {
+export default function AI() {
   return (
     <>
       <div className="h-screen flex justify-center items-center">
