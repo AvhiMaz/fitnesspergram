@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 const defaultTheme = require("tailwindcss/defaultTheme");
- 
+
 const colors = require("tailwindcss/colors");
 const {
   default: flattenColorPalette,
@@ -11,6 +11,7 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     extend: {
@@ -28,11 +29,11 @@ const config: Config = {
         },
         spotlight: {
           "0%": {
-            opacity: '0',
+            opacity: "0",
             transform: "translate(-72%, -62%) scale(0.5)",
           },
           "100%": {
-            opacity: '1',
+            opacity: "1",
             transform: "translate(-50%,-40%) scale(1)",
           },
         },
@@ -44,7 +45,12 @@ const config: Config = {
       },
     },
   },
-  plugins: [addVariablesForColors],
+  plugins: [
+    addVariablesForColors,
+    require("flowbite/plugin")({
+      charts: true,
+    }),
+  ],
 };
 export default config;
 function addVariablesForColors({ addBase, theme }: any) {
@@ -52,7 +58,7 @@ function addVariablesForColors({ addBase, theme }: any) {
   let newVars = Object.fromEntries(
     Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
   );
- 
+
   addBase({
     ":root": newVars,
   });
