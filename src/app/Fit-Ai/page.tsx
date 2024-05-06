@@ -6,7 +6,7 @@ import React from "react";
 export default function AI() {
   return (
     <>
-      <div className="h-screen flex justify-center items-center">
+      <div className="min-h-screen flex justify-center items-center">
         <div className="bg-slate-800 h-28 w-54 lg:h-48 lg:w-96 text-center flex items-center justify-center rounded-lg">
           - Post what you eat in a day - <br />- To keep track of your calories
           -

@@ -138,6 +138,14 @@ export default function TermsAndConditions() {
         </h1>
       </div>
       <div className="mb-20"></div>
+      <footer className="text-center text-white">
+        <p className="text-[15px]">
+          © 2024 fitnesspergram | Email : info@fitnesspergram.store |
+          <br /> Phone : +917086615792 | Business Address : Guwahati
+          <br />
+          --------- @ ----------
+        </p>
+      </footer>
     </>
   );
 }
