@@ -6,7 +6,7 @@ export default function Whyfitnesspergram () {
   return (
     <>
       <div className="grid grid-cols-1 lg:grid-cols-4">
-        <div className="card relative ml-12 mr-10 h-72 w-72 bg-gradient-to-br from-yellow-400 to-orange-600 rounded-lg mt-20 flex items-center justify-center overflow-hidden transition-all duration-600 ease-in-out hover:rotate-5 hover:scale-110 hover:shadow-lg">
+        <div className="card relative ml-10 mr-10 h-80 w-78 bg-gradient-to-br from-yellow-400 to-orange-600 rounded-lg mt-20 flex items-center justify-center overflow-hidden transition-all duration-600 ease-in-out hover:rotate-5 hover:scale-110 hover:shadow-lg">
           <svg
             version="1.0"
             id="Layer_1"
@@ -56,7 +56,7 @@ export default function Whyfitnesspergram () {
             </p>
           </div>
         </div>
-        <div className="card relative ml-12 mr-10 h-72 w-72 bg-gradient-to-br from-yellow-400 to-orange-600 rounded-lg mt-20 flex items-center justify-center overflow-hidden transition-all duration-600 ease-in-out hover:rotate-5 hover:scale-110 hover:shadow-lg">
+        <div className="card relative ml-10 mr-10 h-80 w-78 bg-gradient-to-br from-yellow-400 to-orange-600 rounded-lg mt-20 flex items-center justify-center overflow-hidden transition-all duration-600 ease-in-out hover:rotate-5 hover:scale-110 hover:shadow-lg">
           <svg
             width="130px"
             height="130px"
@@ -103,7 +103,7 @@ export default function Whyfitnesspergram () {
             </p>
           </div>
         </div>
-        <div className="card relative ml-12 mr-10 h-72 w-72 bg-gradient-to-br from-yellow-400 to-orange-600 rounded-lg mt-20 flex items-center justify-center overflow-hidden transition-all duration-600 ease-in-out hover:rotate-5 hover:scale-110 hover:shadow-lg">
+        <div className="card relative ml-10 mr-10 h-80 w-78 bg-gradient-to-br from-yellow-400 to-orange-600 rounded-lg mt-20 flex items-center justify-center overflow-hidden transition-all duration-600 ease-in-out hover:rotate-5 hover:scale-110 hover:shadow-lg">
           <svg
             width="130px"
             height="130px"
@@ -140,7 +140,7 @@ export default function Whyfitnesspergram () {
             </p>
           </div>
         </div>
-        <div className="card relative ml-12 mr-10 h-72 w-72 bg-gradient-to-br from-yellow-400 to-orange-600 rounded-lg mt-20 flex items-center justify-center overflow-hidden transition-all duration-600 ease-in-out hover:rotate-5 hover:scale-110 hover:shadow-lg">
+        <div className="card relative ml-10 mr-10 h-80 w-78 bg-gradient-to-br from-yellow-400 to-orange-600 rounded-lg mt-20 flex items-center justify-center overflow-hidden transition-all duration-600 ease-in-out hover:rotate-5 hover:scale-110 hover:shadow-lg">
           <svg
             version="1.1"
             id="_x32_"
