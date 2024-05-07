@@ -8,7 +8,7 @@ import BmiCalculator from "./components/bmi";
 import IdealCard from "./components/idealforcard";
 import { SpotlightPreview } from "./components/spot";
 import How from "./components/how-it-works";
-import Whyfitnesspergram from "./components/Whyfitnesspergram";
+import Whyfitnesspergram from "@/app/components/whyfitnesspergram";
 
 
 export default function Home() {
