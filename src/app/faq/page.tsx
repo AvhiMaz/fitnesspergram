@@ -7,7 +7,7 @@ export default function SpotlightPreview() {
     <>
       <section className="bg-black text-gray-100 py-32 min-h-screen">
         <div className="container flex flex-col justify-center p-4 mx-auto md:p-8">
-          <h2 className="mb-12 text-yellow-500 text-4xl font-bold leadi text-center sm:text-5xl">
+          <h2 className="mb-12 text-yellow-400 text-4xl font-bold leadi text-center sm:text-5xl">
             Frequently Asked Questions
           </h2>
           <div className="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
@@ -57,6 +57,16 @@ export default function SpotlightPreview() {
                   No, to ensure consistency , fitnesspergram doesn't offer any
                   customization options other than topups as mentioned in the
                   menu section of our website.
+                </p>
+              </div>
+            </details>
+            <details>
+              <summary className="py-2 outline-none cursor-pointer focus:underline">
+                How does the AI feature work ?
+              </summary>
+              <div className="px-4 pb-4">
+                <p>
+                  The Fit-AI is meticulously designed to be able to track your calorie count efficiently. you can simply click the photo of whatever you eat in a day or type in or upload the image, and our AI will detect the amount of calories in it. you can simply access the data from the dashboard section in the navbar
                 </p>
               </div>
             </details>

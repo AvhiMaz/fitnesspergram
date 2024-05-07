@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { NextPage } from "next";
+import { IndianRupee } from "lucide-react";
 
 const Sidebar: NextPage = () => {
   const [open, setOpen] = useState<boolean>(false);
@@ -12,7 +13,7 @@ const Sidebar: NextPage = () => {
         <div className="fixed bottom-4 left-4 z-50">
           <button
             onClick={() => setOpen(true)}
-            className="px-4 py-2 bg-yellow-500 rounded-full"
+            className="px-4 py-2 bg-yellow-400 rounded-full"
           >
             {" "}
             <svg
@@ -27,13 +28,13 @@ const Sidebar: NextPage = () => {
           </button>
         </div>
         {open && (
-          <div className="fixed inset-0 z-40 overflow-hidden">
-            <div className="absolute inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
+          <div className="fixed inset-0 z-40 overflow-hidden mt-24">
+            <div className="absolute inset-0 bg-gray-500 bg-opacity-0 transition-opacity" />
             <section className="absolute inset-y-0 right-0 pl-10 max-w-full flex">
               <div className="w-screen max-w-md">
                 <div className="h-full flex flex-col py-6 bg-white shadow-xl">
                   <div className="flex items-center justify-between px-4">
-                    <h2 className="text-xl font-semibold text-black">Search</h2>
+                    <h2 className="text-xl font-semibold text-black">Your Cart</h2>
                     <button
                       onClick={() => setOpen(false)}
                       className="text-gray-500 hover:text-gray-700"
@@ -64,7 +65,7 @@ const Sidebar: NextPage = () => {
                     />
                   </div>
                   <div className="mt-4 px-4">
-                    <p className="ml-2 text-gray-400">Results</p>
+                    <p className="ml-2 text-gray-400">Items</p>
                   </div>
                   <div className="mt-4 px-4 h-full overflow-auto">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -74,10 +75,10 @@ const Sidebar: NextPage = () => {
                           className="bg-gray-50 hover:bg-gray-100 p-4 cursor-pointer rounded-md border border-gray-300 transition-colors duration-300"
                         >
                           <h3 className="text-lg font-semibold text-black mb-2">
-                            Card {index}
+                            Item {index}
                           </h3>
                           <p className="text-gray-600">
-                            Content for card {index}.
+                            Content for Item {index}.
                           </p>
                         </div>
                       ))}
@@ -85,29 +86,8 @@ const Sidebar: NextPage = () => {
                   </div>
                   <div className="mt-6 px-4">
                     <button className="flex justify-center items-center bg-black text-white rounded-md text-sm p-2 gap-1">
-                      <svg
-                        width="1rem"
-                        height="1rem"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g id="SVGRepo_bgCarrier" strokeWidth={0} />
-                        <g
-                          id="SVGRepo_tracerCarrier"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                        <g id="SVGRepo_iconCarrier">
-                          <path
-                            fillRule="evenodd"
-                            clipRule="evenodd"
-                            d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12ZM9 17C9 16.4477 9.44772 16 10 16H14C14.5523 16 15 16.4477 15 17C15 17.5523 14.5523 18 14 18H10C9.44772 18 9 17.5523 9 17Z"
-                            fill="currentColor"
-                          />
-                        </g>
-                      </svg>{" "}
-                      Filters{" "}
+                    <IndianRupee />
+                      Checkout{" "}
                     </button>
                   </div>
                 </div>

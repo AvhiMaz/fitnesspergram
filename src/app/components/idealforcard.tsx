@@ -14,7 +14,7 @@ export default function IdealCard() {
               />
             </div>
             <div className="p-6 text-center bg-white">
-              <h1 className="text-bold text-black text-2xl text-center">For workholic</h1>
+              <h1 className="text-bold text-black text-2xl text-center">For Workholic</h1>
               <p className="text-base text-black">
                 Get nutritious and budget-friendly Thali meals delivered
                 directly to your workplace. Save time, boost focus, and enhance

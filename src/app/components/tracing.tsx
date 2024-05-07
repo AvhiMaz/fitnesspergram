@@ -14,7 +14,7 @@ export function TracingBeamDemo() {
               {item.badge}
             </h2>
 
-            <p className="text-xl mt-10 mb-4">{item.title}</p>
+            <p className="text-xl mt-10 mb-4 text-yellow-300">{item.title}</p>
 
             <div className="text-sm  prose prose-sm dark:prose-invert">
               {item?.image && (

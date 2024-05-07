@@ -22,24 +22,24 @@ export default function AI() {
   };
   return (
     <>
-      <div className="min-h-screen flex justify-center items-center">
+    <div className="bg-black min-h-screen">
+      <div className=" h-full flex justify-center items-center bg-black">
         <div>
           {messages.map((message, index) => (
-            <div key={index} className="text-white">
+            <div key={index} className="text-white dark:text-white mt-72">
               {message}
             </div>
           ))}
         </div>
         {introDivVisible && (
-          <div className="bg-slate-800 h-28 w-80 lg:h-48 lg:w-96 text-center flex items-center justify-center rounded-lg">
-            - Post what you eat in a day - <br />- To keep track of your
-            calories -
+          <div className="bg-slate-800 text-white mt-72 h-28 w-80 lg:h-48 lg:w-96 text-center flex items-center justify-center rounded-lg">
+            - Click a pic of what you eat in a day - <br />- Or upload a pic of what you ate - <br />- Or simply type in what you ate -
           </div>
         )}
       </div>
       <div className="fixed bottom-0 left-0 w-full bg-black mb-5">
-        <div className="mx-3 lg:mx-10">
-          <form onSubmit={handleMessageSubmit}>
+        <div className="mx-3 bg-black lg:mx-10">
+          <form className="bg-black" onSubmit={handleMessageSubmit}>
             <label className="sr-only">Your message</label>
             <div className="flex items-center px-3 py-2 rounded-lg bg-gray-50 dark:bg-gray-700">
               <button
@@ -89,7 +89,7 @@ export default function AI() {
               ></textarea>
               <button
                 type="submit"
-                className="inline-flex justify-center p-2 text-yellow-500 rounded-full cursor-pointer hover:bg-yellow-500 dark:text-yellow-500 dark:hover:bg-gray-600"
+                className="inline-flex justify-center p-2 text-yellow-400 rounded-full cursor-pointer hover:bg-slate-200 dark:text-slate-200"
               >
                 <SendIcon />
                 <span className="sr-only">Send message</span>
@@ -99,6 +99,7 @@ export default function AI() {
         </div>
       </div>
       <div className="mt-20"></div>
+      </div>
     </>
   );
 }

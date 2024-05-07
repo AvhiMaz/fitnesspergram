@@ -9,7 +9,7 @@ import Sidebar from "../components/sidebar";
 export default function Menu() {
   return (
     <>
-      <p className=" mt-32 text-center text-yellow-500 text-5xl">#NonVeg</p>
+      <p className=" mt-32 text-center text-yellow-400 text-5xl">#NonVeg</p>
       <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4">
         <div className="mt-20 lg:mt-10 flex items-center justify-center">
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">

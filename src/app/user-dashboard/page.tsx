@@ -40,16 +40,15 @@ const BarChart = () => {
   const [chartOptions, setChartOptions] = useState({});
 
   useEffect(() => {
-    // Check if window object is available (client side)
     if (typeof window !== "undefined") {
       setChartData({
-        labels: ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"],
+        labels: ["Meal 1", "Meal 2", "Meal 3", "Meal 4", "Meal 5"],
         datasets: [
           {
-            label: "Sales $",
-            data: [18127, 22201, 19490, 17938, 24182, 17842, 22475],
-            borderColor: "rgb(53, 162, 235)",
-            backgroundColor: "rgb(53, 162, 235, 0.4)",
+            label: "Calories (Kcal)",
+            data: [182, 291, 609, 293, 482],
+            borderColor: "rgb(240, 180, 17)",
+            backgroundColor: "rgb(240, 180, 17)",
           },
         ],
       });
@@ -60,7 +59,7 @@ const BarChart = () => {
           },
           title: {
             display: true,
-            text: "Daily Revenue",
+            text: "Daily Calorie Count",
           },
         },
         maintainAspectRatio: false,
@@ -76,6 +75,21 @@ const BarChart = () => {
           <Bar data={chartData} options={chartOptions} />
         </div>
       </div>
+      <div className="text-bold text-xl ml-1 lg:ml-10 rounded-lg text-white">
+        <h1>Total Calories : </h1>
+        <h1>Total Protien : </h1>
+        <h1>Total Carbs : </h1>
+        <h1>Total Fats : </h1>
+      </div>
+      <div className="mt-10"></div>
+      <footer className="text-center text-white">
+        <p className="text-[15px]">
+          © 2024 fitnesspergram | Email : info@fitnesspergram.store |
+          <br /> Phone : +917086615792 | Business Address : Guwahati
+          <br />
+          --------- @ ----------
+        </p>
+      </footer>
     </>
   );
 };

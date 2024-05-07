@@ -7,7 +7,7 @@ import Link from "next/link";
 export function TypewriterEffectSmoothDemo() {
   const words = [
     {
-      text: "start",
+      text: "Start",
       className: "text-white",
     },
     {
@@ -32,9 +32,9 @@ export function TypewriterEffectSmoothDemo() {
       <Image src={Logo} alt="Logo" width={200} height={200} />
       <TypewriterEffectSmooth words={words} />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 mt-5">
-        <Link href="/price">
-          <button className="w-40 h-10 rounded-xl border dark:border-white border-transparent text-white text-sm">
-            View Pricings
+        <Link href="/plans">
+          <button className="w-40 h-10 rounded-xl border text-white text-sm">
+            View Plans
           </button>
         </Link>
         <Link href="/sign-in">

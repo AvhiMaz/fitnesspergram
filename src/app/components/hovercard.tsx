@@ -11,7 +11,7 @@ export const projects = [
   {
     title: "Instagram",
     description:
-      "Discover nutritious meals that are anything but odinary. Plus enjoy fitness related content to boost toyr healthy lifestyle. Join us on a journey of healthy eating @fitnesspergram.store",
+      "Discover nutritious meals that are anything but odinary. Plus enjoy fitness related content to boost your healthy lifestyle. Join us on a journey of healthy eating @fitnesspergram.store",
     link: "https://instagram.com/fitnesspergram.store",
     br: "",
   },
@@ -32,7 +32,7 @@ export const projects = [
   {
     title: "Drop a Mail",
     description:
-      "For enquiries, doubts, support or anything else reach us at fitnesspergram@gmail.com",
+      "For enquiries, doubts, support or anything else reach us at info@fitnesspergram.store",
     link: "mailto:info@fitnesspergram.store",
     br: "",
   },

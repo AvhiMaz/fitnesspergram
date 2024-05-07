@@ -33,7 +33,7 @@ function BmiCalculator() {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-center text-yellow-500 underline text-3xl lg:text-5xl mb-4">
+      <h1 className="text-center text-yellow-400 underline text-3xl lg:text-5xl mb-4">
         {" "}
         #BMICalculator
       </h1>
@@ -62,7 +62,7 @@ function BmiCalculator() {
         />
       </div>
       <button
-        className="calculate-btn w-full py-2 bg-yellow-600 text-black text-lg font-semibold rounded-md"
+        className="calculate-btn w-full py-2 bg-yellow-400 text-black text-lg font-semibold rounded-md"
         onClick={calculateBmi}
       >
         Click to Calculate BMI

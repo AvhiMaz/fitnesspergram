@@ -5,7 +5,7 @@ export default function TermsAndConditions() {
     <>
       <div className="mx-0 lg:mx-32 text-white dark:text-white">
         <div className="mt-20 flex justify-center items-center">
-          <h1 className="text-2xl lg:text-4xl text-center text-yellow-500">
+          <h1 className="text-2xl lg:text-4xl text-center text-yellow-400">
             Terms and Conditions
           </h1>
         </div>
@@ -132,7 +132,7 @@ export default function TermsAndConditions() {
             the laws of the State of Assam, India.
           </p>
         </div>
-        <h1 className="text-center text-sm lg:text-2xl text-rose-500 mt-5">
+        <h1 className="text-center text-sm lg:text-2xl text-red-500 mt-5">
           By using this website, you agree to abide by these Terms and
           Conditions of Use.
         </h1>

@@ -5,19 +5,19 @@ const people = [
   {
     id: 1,
     name: "Priyangshu Das",
-    designation: "Founder / Operations Manager",
+    designation: "Founder / Chief Executive Officer",
     image: "https://avatars.githubusercontent.com/u/167234039?v=4",
   },
   {
     id: 2,
     name: "Avhi Mazumder",
-    designation: "Technical Manager",
+    designation: "Chief Technical Officer",
     image: "https://avatars.githubusercontent.com/u/102310138?v=4",
   },
   {
     id: 3,
     name: "Uday Hajong",
-    designation: "Finance / Product Manager",
+    designation: "Chief Finance Officer",
     image:
       "https://iili.io/JSyrAss.jpg",
   },
