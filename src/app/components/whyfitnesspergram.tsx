@@ -2,7 +2,7 @@
 
 import React from "react";
 
-export default function Card () {
+export default function Whyfitnesspergram () {
   return (
     <>
       <div className="grid grid-cols-1 lg:grid-cols-4">

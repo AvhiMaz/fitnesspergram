@@ -8,7 +8,7 @@ import BmiCalculator from "./components/bmi";
 import IdealCard from "./components/idealforcard";
 import { SpotlightPreview } from "./components/spot";
 import How from "./components/how-it-works";
-import Card from "./components/Whyfitnesspergram";
+import Whyfitnesspergram from "./components/Whyfitnesspergram";
 
 
 export default function Home() {
@@ -62,7 +62,7 @@ export default function Home() {
           #WhyUs
         </h1>
       </div>
-      <Card />
+      <Whyfitnesspergram />
       <div className="mt-20">
         <BmiCalculator />
       </div>
