@@ -8,7 +8,8 @@ import BmiCalculator from "./components/bmi";
 import IdealCard from "./components/idealforcard";
 import { SpotlightPreview } from "./components/spot";
 import How from "./components/how-it-works";
-import Why from "./components/Whyfitnesspergram";
+import Card from "./components/Whyfitnesspergram";
+
 
 export default function Home() {
   const [showChatBotText, setShowChatBotText] = useState(true);
@@ -61,7 +62,7 @@ export default function Home() {
           #WhyUs
         </h1>
       </div>
-      <Why />
+      <Card />
       <div className="mt-20">
         <BmiCalculator />
       </div>
