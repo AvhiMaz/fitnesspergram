@@ -70,7 +70,7 @@ const BarChart = () => {
 
   return (
     <>
-      <div className="bg-black min-h-screen">
+      <div className="bg-black h-[960px] lg:min-h-screen">
         <div className="w-full mt-20 flex justify-center items-center relative p-4 rounded-lg bg-black">
           <Bar data={chartData} options={chartOptions} />
         </div>
