@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card: React.FC = () => {
+export default function Card () {
   return (
     <>
       <div className="grid grid-cols-1 lg:grid-cols-4">
@@ -175,4 +175,3 @@ const Card: React.FC = () => {
   );
 };
 
-export default Card;
