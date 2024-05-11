@@ -9,6 +9,7 @@ import IdealCard from "./components/idealforcard";
 import { SpotlightPreview } from "./components/spot";
 import How from "./components/how-it-works";
 import Whyfitnesspergram from "@/app/components/whyfitnesspergram";
+import Submission from "./components/submission";
 
 
 export default function Home() {
