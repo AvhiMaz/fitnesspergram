@@ -17,6 +17,7 @@ function ContactForm() {
           id="email"
           type="email" 
           name="email"
+          placeholder="Enter your email address"
           className="w-full px-4 py-2 border rounded-md mb-4 text-black"
         />
         <ValidationError 
@@ -33,6 +34,7 @@ function ContactForm() {
           id="phone"
           type="tel" 
           name="phone"
+          placeholder="Enter your phone number"
           className="w-full px-4 py-2 border rounded-md mb-4 text-black"
         />
         <ValidationError 
@@ -48,6 +50,8 @@ function ContactForm() {
         <textarea
           id="message"
           name="message"
+          placeholder="Your message..."
+          rows={6}
           className="w-full px-4 py-2 border rounded-md mb-4 text-black"
         />
         <ValidationError 
