@@ -1,47 +1,82 @@
-import React from 'react';
-import { useForm, ValidationError } from '@formspree/react';
+import { useState } from "react";
 
-function ContactForm() {
-  const [state, handleSubmit] = useForm("mzbnwezk");
+export default function Submission() {
+  const [state, setState] = useState({ succeeded: false });
+  const [emailError, setEmailError] = useState("");
+
+  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const formData = new FormData(event.target as HTMLFormElement);
+
+    formData.append("access_key", "b2ea624c-df5f-4345-a28c-a28c61754f49");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    });
+    const result = await response.json();
+    if (result.success) {
+      setState({ succeeded: true });
+    }
+  }
+
+  function validateEmail(email: string) {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+  }
+
+  function handleEmailChange(event: { target: { value: any } }) {
+    const email = event.target.value;
+    if (!validateEmail(email)) {
+      setEmailError("Please enter a valid email address.");
+    } else {
+      setEmailError("");
+    }
+  }
 
   if (state.succeeded) {
-      return <p className="text-green-500 text-center text-2xl">Your message has been delivered ✅</p>;
+    return (
+      <p className="text-green-500 text-center text-2xl">
+        Your message has been delivered ✅
+      </p>
+    );
   }
 
   return (
-      <form onSubmit={handleSubmit} action="https://formspree.io/f/mzbnwezk" method="POST" className="max-w-md mx-auto">
+    <>
+      <form onSubmit={handleSubmit}>
         <label htmlFor="email" className="block mb-2 text-yellow-400">
           Email Address
         </label>
         <input
           id="email"
-          type="email" 
+          type="email"
           name="email"
           placeholder="Enter your email address"
-          className="w-full px-4 py-2 border rounded-md mb-4 text-black"
+          className={`w-full px-4 py-2 border rounded-md mb-4 text-black ${
+            emailError ? "border-red-500" : ""
+          }`}
+          onChange={handleEmailChange}
+          required
         />
-        <ValidationError 
-          prefix="Email" 
-          field="email"
-          errors={state.errors}
-          className="text-red-500"
-        />
+        {emailError && <p className="text-red-500">{emailError}</p>}
 
         <label htmlFor="phone" className="block mb-2 text-yellow-400">
           Phone Number
         </label>
         <input
           id="phone"
-          type="tel" 
+          type="tel"
           name="phone"
           placeholder="Enter your phone number"
           className="w-full px-4 py-2 border rounded-md mb-4 text-black"
-        />
-        <ValidationError 
-          prefix="Phone" 
-          field="phone"
-          errors={state.errors}
-          className="text-red-500"
         />
 
         <label htmlFor="message" className="block mb-2 text-yellow-400">
@@ -54,24 +89,14 @@ function ContactForm() {
           rows={6}
           className="w-full px-4 py-2 border rounded-md mb-4 text-black"
         />
-        <ValidationError 
-          prefix="Message" 
-          field="message"
-          errors={state.errors}
-          className="text-red-500"
-        />
 
-        <button type="submit" disabled={state.submitting} className="bg-yellow-400 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+        <button
+          type="submit"
+          className="bg-yellow-400 text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline hover:bg-yellow-500"
+        >
           Submit
         </button>
       </form>
+    </>
   );
 }
-
-function Submission() {
-  return (
-    <ContactForm />
-  );
-}
-
-export default Submission;
