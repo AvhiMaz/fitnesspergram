@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { CircleCheckBig } from "lucide-react";
+import { useEffect, useState } from "react";
 
 export default function Submission() {
   const [state, setState] = useState({ succeeded: false });
@@ -41,11 +42,20 @@ export default function Submission() {
     }
   }
 
+  useEffect(() => {
+    const form = document.getElementById("form") as HTMLFormElement;
+    if (form) {
+      form.reset();
+    }
+  }, []);
+
   if (state.succeeded) {
     return (
-      <p className="text-green-500 text-center text-2xl">
-        Your message has been delivered ✅
-      </p>
+      <div className="flex justify-center items-center ">
+        <h1 className="text-4xl font-bold text-green-400 ">
+          Thank you for your message ✅
+        </h1>
+      </div>
     );
   }
 
