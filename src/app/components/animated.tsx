@@ -18,15 +18,13 @@ const people = [
     id: 3,
     name: "Uday Hajong",
     designation: "Chief Finance Officer",
-    image:
-      "https://iili.io/JSyrAss.jpg",
+    image: "https://iili.io/JSyrAss.jpg",
   },
   {
     id: 4,
-    name: "Afzal Mazumder",
+    name: "Debashree Bhowmik",
     designation: "Marketing Incharge",
-    image:
-      "https://iili.io/JSyePNs.jpg",
+    image: "https://iili.io/JPMcQ9e.jpg",
   },
 ];
 

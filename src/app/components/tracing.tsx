@@ -99,7 +99,7 @@ const dummyContent = [
       </>
     ),
     badge: "",
-    image: "https://iili.io/JSyePNs.jpg",
+    image: "https://ideogram.ai/api/images/direct/ZrmgQZ3STf2Ym_9sDMOoSA.png",
   },
   {
     title: "How We Do It Right",
