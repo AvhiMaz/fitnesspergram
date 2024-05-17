@@ -99,7 +99,7 @@ const dummyContent = [
       </>
     ),
     badge: "",
-    image: "https://ideogram.ai/api/images/direct/ZrmgQZ3STf2Ym_9sDMOoSA.png",
+    image: "https://e0.pxfuel.com/wallpapers/372/811/desktop-wallpaper-man-fitness.jpg",
   },
   {
     title: "How We Do It Right",

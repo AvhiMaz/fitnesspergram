@@ -9,7 +9,8 @@ const nextConfig = {
       "images.remotePatterns",
       "freeimage.host",
       "iili.io",
-      "ideogram.ai"
+      "ideogram.ai",
+      "e0.pxfuel.com",
     ],
   },
 };
