@@ -9,7 +9,7 @@ export default function MenuVegan() {
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
               <img
-                src="https://ideogram.ai/api/images/direct/uLQe59K5RnWCqSnaJ8cBUQ.png"
+                src=""
                 alt="card-image"
                 className="object-cover w-full h-full"
               />
@@ -44,7 +44,7 @@ export default function MenuVegan() {
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
               <img
-                src="https://ideogram.ai/api/images/direct/YB3KbEuBQJSpNyl1ZdvN_A.png"
+                src=""
                 alt="card-image"
                 className="object-cover w-full h-full"
               />
