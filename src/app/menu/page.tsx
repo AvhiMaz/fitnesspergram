@@ -15,7 +15,7 @@ export default function Menu() {
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
               <img
-                src="https://ideogram.ai/api/images/direct/WU6_hTDWTKy6IsFrgS8zuQ.png"
+                src=""
                 alt="card-image"
                 className="object-cover w-full h-full"
               />
@@ -50,7 +50,7 @@ export default function Menu() {
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
               <img
-                src="https://ideogram.ai/api/images/direct/3U4G0Q9CQqGMvyc2x8Tdrg.png"
+                src=""
                 alt="card-image"
                 className="object-cover w-full h-full"
               />
@@ -85,7 +85,7 @@ export default function Menu() {
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
               <img
-                src="https://ideogram.ai/api/images/direct/mbSQcAl4RgGxEBu01Ppxiw.png"
+                src=""
                 alt="card-image"
                 className="object-cover w-full h-full"
               />
@@ -120,7 +120,7 @@ export default function Menu() {
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
               <img
-                src="https://ideogram.ai/api/images/direct/XXoKCx4EQpKfJU0DlCF7yA.png"
+                src=""
                 alt="card-image"
                 className="object-cover w-full h-full"
               />

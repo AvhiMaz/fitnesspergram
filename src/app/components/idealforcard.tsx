@@ -9,7 +9,7 @@ export default function IdealCard() {
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
               <img
                 className="rounded-t-lg"
-                src="https://ideogram.ai/api/images/direct/Cakezo40ShmoTsAhXJSEiw.png"
+                src=""
                 alt=""
               />
             </div>
@@ -27,7 +27,7 @@ export default function IdealCard() {
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
               <img
                 className="rounded-t-lg"
-                src="https://ideogram.ai/api/images/direct/kbVi7ZB7TJGh27Avpz-jcQ.jpg"
+                src=""
                 alt=""
               />
             </div>
@@ -45,7 +45,7 @@ export default function IdealCard() {
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
               <img
                 className="rounded-t-lg"
-                src="https://ideogram.ai/api/images/direct/xgzotLNmRvmk70mr6zJ9vQ.png"
+                src=""
                 alt=""
               />
             </div>
@@ -63,7 +63,7 @@ export default function IdealCard() {
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
               <img
                 className="rounded-t-lg"
-                src="https://ideogram.ai/api/images/direct/faHC6ca0Qs6EFNqWAETRpw.png"
+                src=""
                 alt=""
               />
             </div>

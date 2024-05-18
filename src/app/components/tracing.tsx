@@ -99,7 +99,7 @@ const dummyContent = [
       </>
     ),
     badge: "",
-    image: "https://e0.pxfuel.com/wallpapers/372/811/desktop-wallpaper-man-fitness.jpg",
+    image: "",
   },
   {
     title: "How We Do It Right",
@@ -141,6 +141,6 @@ const dummyContent = [
       </>
     ),
     badge: "",
-    image: "https://iili.io/JUdxrJ9.png",
+    image: "",
   },
 ];
