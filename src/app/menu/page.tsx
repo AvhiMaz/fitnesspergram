@@ -5,6 +5,8 @@ import MenuVeg from "../components/veg";
 import MenuVegan from "../components/vegan";
 import TopUp from "../components/top-ups";
 import Sidebar from "../components/sidebar";
+import Chicken from "../../../public/images/chiccken-thali.png";
+import Image from "next/image";
 
 export default function Menu() {
   return (
@@ -14,9 +16,11 @@ export default function Menu() {
         <div className="mt-20 lg:mt-10 flex items-center justify-center">
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
-              <img
-                src=""
-                alt="card-image"
+              <Image
+                src="/images/chiccken-thali.png"
+                alt="Chicken-Thali"
+                width={200}
+                height={200}
                 className="object-cover w-full h-full"
               />
             </div>
@@ -49,9 +53,11 @@ export default function Menu() {
         <div className="mt-10 flex items-center justify-center">
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
-              <img
-                src=""
-                alt="card-image"
+            <Image
+                src="/images/egg-thali.png"
+                alt="Chicken-Thali"
+                width={200}
+                height={200}
                 className="object-cover w-full h-full"
               />
             </div>
@@ -84,9 +90,11 @@ export default function Menu() {
         <div className="mt-10 flex items-center justify-center">
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
-              <img
-                src=""
-                alt="card-image"
+            <Image
+                src="/images/fish-thali.png"
+                alt="Chicken-Thali"
+                width={200}
+                height={200}
                 className="object-cover w-full h-full"
               />
             </div>
@@ -119,9 +127,11 @@ export default function Menu() {
         <div className="mt-10 flex items-center justify-center">
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
-              <img
-                src=""
-                alt="card-image"
+            <Image
+                src="/images/boiled-thali.png"
+                alt="Chicken-Thali"
+                width={200}
+                height={200}
                 className="object-cover w-full h-full"
               />
             </div>

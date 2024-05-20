@@ -1,4 +1,5 @@
-import React from "react";
+import Image from "next/image";
+import React from "react"
 
 export default function MenuVeg() {
   return (
@@ -8,8 +9,11 @@ export default function MenuVeg() {
         <div className="mt-20 lg:mt-10 flex items-center justify-center">
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
-              <img
-                src=""
+            <Image
+                src="/images/panner-plate.png"
+                alt="Chicken-Thali"
+                width={200}
+                height={200}
                 className="object-cover w-full h-full"
               />
             </div>
@@ -42,8 +46,11 @@ export default function MenuVeg() {
         <div className="mt-10 flex items-center justify-center">
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
-              <img
-                src=""
+            <Image
+                src="/images/nutrilla.png"
+                alt="Chicken-Thali"
+                width={200}
+                height={200}
                 className="object-cover w-full h-full"
               />
             </div>
@@ -76,9 +83,11 @@ export default function MenuVeg() {
         <div className="mt-10 flex items-center justify-center">
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
-              <img
-                src=""
-                alt="card-image"
+            <Image
+                src="/images/chana.png"
+                alt="Chicken-Thali"
+                width={200}
+                height={200}
                 className="object-cover w-full h-full"
               />
             </div>
@@ -111,9 +120,11 @@ export default function MenuVeg() {
         <div className="mt-10 flex items-center justify-center">
           <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white bg-clip-border rounded-xl h-56">
-              <img
-                src=""
-                alt="card-image"
+            <Image
+                src="/images/tofu.png"
+                alt="Chicken-Thali"
+                width={200}
+                height={200}
                 className="object-cover w-full h-full"
               />
             </div>
