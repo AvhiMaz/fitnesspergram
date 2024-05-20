@@ -56,7 +56,7 @@ const dummyContent = [
       </>
     ),
     badge: "",
-    image: "https://iili.io/JUxwSFS.png",
+    image: "/images/about1.png",
   },
   {
     title: "Our Vision",
@@ -99,7 +99,7 @@ const dummyContent = [
       </>
     ),
     badge: "",
-    image: "",
+    image: "/images/about2.jpg",
   },
   {
     title: "How We Do It Right",
@@ -141,6 +141,6 @@ const dummyContent = [
       </>
     ),
     badge: "",
-    image: "",
+    image: "/images/about3.png",
   },
 ];
