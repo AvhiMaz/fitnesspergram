@@ -23,7 +23,7 @@ const people = [
   {
     id: 4,
     name: "Debashree Bhowmik",
-    designation: "Marketing Incharge",
+    designation: "Product Manager",
     image: "https://iili.io/JPMcQ9e.jpg",
   },
 ];

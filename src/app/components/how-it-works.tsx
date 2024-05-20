@@ -87,14 +87,17 @@ const How: React.FC = () => {
         }
         @media (max-width: 768px) {
           .wrapper {
-            height: 120vh; /* Set height to 200vh for mobile */
+            height: 120vh;
           }
         }
-
-        /* Media query for laptops and larger screens */
         @media (min-width: 769px) {
           .wrapper {
-            height: 40vh; /* Set height to 100vh for laptops */
+            height: 40vh;
+          }
+        }
+        @media (min-width: 768px) and (max-width: 1024px) {
+          .wrapper {
+            height: 60vh; /* Adjust the height as needed for medium screens */
           }
         }
       `}</style>
