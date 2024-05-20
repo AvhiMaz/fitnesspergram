@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function IdealCard() {
@@ -12,6 +13,13 @@ export default function IdealCard() {
                 src=""
                 alt=""
               />
+              <Image
+                src="/images/workoholic.png"
+                alt="Chicken-Thali"
+                width={200}
+                height={200}
+                className="object-cover w-full h-full"
+              />
             </div>
             <div className="p-6 text-center bg-white">
               <h1 className="text-bold text-black text-2xl text-center">For Workholic</h1>
@@ -25,10 +33,12 @@ export default function IdealCard() {
           </div>
           <div className="block max-w-[18rem] rounded-lg text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white">
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
-              <img
-                className="rounded-t-lg"
-                src=""
-                alt=""
+            <Image
+                src="/images/badminton.jpg"
+                alt="Chicken-Thali"
+                width={200}
+                height={200}
+                className="object-cover w-full h-full"
               />
             </div>
             <div className="p-6 text-center bg-slate-900">
@@ -43,10 +53,12 @@ export default function IdealCard() {
           </div>
           <div className="block max-w-[18rem] rounded-lg text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white">
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
-              <img
-                className="rounded-t-lg"
-                src=""
-                alt=""
+            <Image
+                src="/images/student.png"
+                alt="Chicken-Thali"
+                width={200}
+                height={200}
+                className="object-cover w-full h-full"
               />
             </div>
             <div className="p-6 text-center bg-white">
@@ -61,10 +73,12 @@ export default function IdealCard() {
           </div>
           <div className="block max-w-[18rem] rounded-lg text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white">
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
-              <img
-                className="rounded-t-lg"
-                src=""
-                alt=""
+            <Image
+                src="/images/gym.png"
+                alt="Chicken-Thali"
+                width={200}
+                height={200}
+                className="object-cover w-full h-full"
               />
             </div>
             <div className="p-6 text-center bg-slate-900">
