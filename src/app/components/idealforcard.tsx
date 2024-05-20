@@ -8,11 +8,6 @@ export default function IdealCard() {
         <div className="grid lg:grid-cols-4 gap-7 lg:gap-28 mt-10 mb-10 justify-center items-center">
           <div className="block max-w-[18rem] rounded-lg text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white">
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
-              <img
-                className="rounded-t-lg"
-                src=""
-                alt=""
-              />
               <Image
                 src="/images/workoholic.png"
                 alt="Chicken-Thali"
