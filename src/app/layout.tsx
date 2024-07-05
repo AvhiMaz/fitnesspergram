@@ -7,7 +7,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "fitnesspergram.store",
+  title: "fitnesspergram.com",
   icons: {
     shortcut: "/favicon.ico",
   },

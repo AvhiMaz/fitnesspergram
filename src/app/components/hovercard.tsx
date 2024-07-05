@@ -12,7 +12,7 @@ export const projects = [
     title: "Instagram",
     description:
       "Discover nutritious meals that are anything but odinary. Plus enjoy fitness related content to boost your healthy lifestyle. Join us on a journey of healthy eating @fitnesspergram.store",
-    link: "https://instagram.com/fitnesspergram.store",
+    link: "https://instagram.com/fitnesspergram",
     br: "",
   },
   {

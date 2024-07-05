@@ -23,7 +23,7 @@ export function TypewriterEffectSmoothDemo() {
       className: "text-white",
     },
     {
-      text: "@fitnesspergram.store",
+      text: "@fitnesspergram.com",
       className: "text-[#f97316] dark:text-[#f97316]",
     },
   ];
